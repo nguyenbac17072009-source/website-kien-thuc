@@ -1,0 +1,2065 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Một số kiến thức cơ bản của một số môn lớp 12</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f1f5f9;
+            color: #263445;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #123b65, #1976a8);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #174c75;
+            font-weight: bold;
+            padding: 10px 22px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #174c75;
+            color: white;
+        }
+
+        .container {
+            max-width: 1150px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .subject {
+            background: white;
+            border-radius: 14px;
+            padding: 30px;
+            margin-bottom: 35px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            scroll-margin-top: 90px;
+        }
+
+        .subject-title {
+            font-size: 27px;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            border-bottom: 3px solid;
+        }
+
+        .chemistry .subject-title {
+            color: #16805d;
+            border-color: #16805d;
+        }
+
+        .english .subject-title {
+            color: #2563a6;
+            border-color: #2563a6;
+        }
+
+        .informatics .subject-title {
+            color: #8a4db5;
+            border-color: #8a4db5;
+        }
+
+        .topic {
+            margin-bottom: 25px;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .topic h3 {
+            background: #f1f5f9;
+            padding: 13px 18px;
+            font-size: 19px;
+            color: #263f59;
+        }
+
+        .topic-content {
+            padding: 18px 22px;
+        }
+
+        .topic-content h4 {
+            margin: 15px 0 7px;
+            color: #315b7c;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        strong {
+            color: #173e60;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #dbe3eb;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #eaf1f7;
+        }
+
+        .formula {
+            background: #f0f7ff;
+            padding: 12px 15px;
+            border-left: 4px solid #3182ce;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-family: "Times New Roman", serif;
+            font-size: 17px;
+            overflow-x: auto;
+        }
+
+        .note {
+            background: #fff8e6;
+            border-left: 4px solid #e5a323;
+            padding: 12px 15px;
+            margin: 12px 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #123b65;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            .subject {
+                padding: 18px;
+            }
+
+            .subject-title {
+                font-size: 22px;
+            }
+
+            table {
+                font-size: 13px;
+            }
+
+            th, td {
+                padding: 7px;
+            }
+        }
+
+        @media print {
+            nav {
+                display: none;
+            }
+
+            body {
+                background: white;
+            }
+
+            .subject {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MỘT SỐ KIẾN THỨC CƠ BẢN CỦA MỘT SỐ MÔN LỚP 12</h1>
+    <p>Tổng hợp kiến thức trọng tâm – Hóa học – Tiếng Anh – Tin học</p>
+</header>
+
+<nav>
+    <a href="#hoa-hoc">Hóa học 12</a>
+    <a href="#tieng-anh">Tiếng Anh 12</a>
+    <a href="#tin-hoc">Tin học 12</a>
+</nav>
+
+<div class="container">
+
+<!-- ================================================== -->
+<!-- HÓA HỌC 12 -->
+<!-- ================================================== -->
+
+<section class="subject chemistry" id="hoa-hoc">
+
+    <h2 class="subject-title">I. HÓA HỌC 12</h2>
+
+    <div class="topic">
+        <h3>1. Ester – Lipid</h3>
+        <div class="topic-content">
+
+            <h4>1.1. Ester</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Ester là dẫn xuất của acid carboxylic, trong đó nhóm –OH được thay bằng nhóm –OR'.</li>
+                <li><strong>Công thức chung:</strong> RCOOR'.</li>
+                <li><strong>Danh pháp:</strong> Tên gốc hydrocarbon của alcohol + tên anion gốc acid.</li>
+                <li><strong>Tính chất vật lí:</strong> Thường là chất lỏng, ít tan trong nước, có mùi thơm đặc trưng, nhiệt độ sôi thấp hơn acid carboxylic tương ứng.</li>
+            </ul>
+
+            <h4>Tính chất hóa học</h4>
+            <ul>
+                <li><strong>Thủy phân trong môi trường acid:</strong> Tạo alcohol và acid carboxylic.</li>
+                <li><strong>Phản ứng xà phòng hóa:</strong> Ester phản ứng với kiềm tạo muối carboxylate và alcohol.</li>
+                <li><strong>Phản ứng cháy:</strong> Tạo CO₂ và H₂O đối với ester no, đơn chức, mạch hở.</li>
+            </ul>
+
+            <div class="formula">
+                RCOOR' + NaOH → RCOONa + R'OH
+            </div>
+
+            <h4>Điều chế</h4>
+            <p>Đun nóng acid carboxylic với alcohol, có H₂SO₄ đặc làm xúc tác.</p>
+
+            <div class="formula">
+                RCOOH + R'OH ⇌ RCOOR' + H₂O
+            </div>
+
+            <h4>Ứng dụng</h4>
+            <p>Sản xuất hương liệu, mỹ phẩm, dung môi, chất tạo mùi và nguyên liệu công nghiệp.</p>
+
+            <h4>1.2. Lipid</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Lipid là những hợp chất hữu cơ có trong tế bào sống, không tan trong nước nhưng tan trong dung môi hữu cơ không phân cực.</li>
+                <li><strong>Chất béo:</strong> Là triester của glycerol với các acid béo.</li>
+                <li><strong>Công thức chung:</strong> (RCOO)₃C₃H₅.</li>
+                <li><strong>Tính chất vật lí:</strong> Chất béo nhẹ hơn nước, không tan trong nước; chất béo chứa nhiều gốc acid béo no thường ở trạng thái rắn, còn nhiều gốc không no thường ở trạng thái lỏng.</li>
+            </ul>
+
+            <h4>Tính chất hóa học</h4>
+            <ul>
+                <li>Thủy phân trong môi trường acid tạo glycerol và acid béo.</li>
+                <li>Xà phòng hóa tạo glycerol và muối của acid béo.</li>
+                <li>Chất béo không no có thể tham gia phản ứng cộng hydrogen.</li>
+            </ul>
+
+            <div class="formula">
+                (RCOO)₃C₃H₅ + 3NaOH → C₃H₅(OH)₃ + 3RCOONa
+            </div>
+
+            <h4>Ứng dụng</h4>
+            <p>Cung cấp và dự trữ năng lượng, sản xuất xà phòng, glycerol và nhiều sản phẩm công nghiệp.</p>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>2. Carbohydrate</h3>
+        <div class="topic-content">
+
+            <h4>2.1. Glucose</h4>
+            <ul>
+                <li><strong>Công thức phân tử:</strong> C₆H₁₂O₆.</li>
+                <li><strong>Khái niệm:</strong> Glucose là monosaccharide, có nhiều trong quả chín và máu người.</li>
+                <li><strong>Tính chất vật lí:</strong> Chất rắn kết tinh, không màu, dễ tan trong nước, có vị ngọt.</li>
+            </ul>
+
+            <h4>Tính chất hóa học</h4>
+            <ul>
+                <li>Phản ứng tráng bạc.</li>
+                <li>Phản ứng với Cu(OH)₂ ở nhiệt độ thường tạo dung dịch xanh lam.</li>
+                <li>Lên men tạo ethanol và CO₂.</li>
+                <li>Phản ứng với hydrogen tạo sorbitol.</li>
+            </ul>
+
+            <div class="formula">
+                C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂
+            </div>
+
+            <h4>Điều chế và ứng dụng</h4>
+            <p>Glucose được điều chế bằng thủy phân tinh bột hoặc cellulose. Được sử dụng trong y học, thực phẩm và sản xuất vitamin C.</p>
+
+            <h4>2.2. Fructose</h4>
+            <ul>
+                <li><strong>Công thức:</strong> C₆H₁₂O₆.</li>
+                <li><strong>Khái niệm:</strong> Là monosaccharide có nhiều trong mật ong và quả ngọt.</li>
+                <li><strong>Tính chất vật lí:</strong> Chất rắn kết tinh, dễ tan trong nước, có vị ngọt hơn glucose.</li>
+                <li><strong>Tính chất hóa học:</strong> Có tính chất của polyalcohol; có phản ứng tráng bạc trong môi trường kiềm do chuyển hóa thành glucose và mannose.</li>
+                <li><strong>Ứng dụng:</strong> Sử dụng trong công nghiệp thực phẩm.</li>
+            </ul>
+
+            <h4>2.3. Saccharose (Saccarozơ)</h4>
+            <ul>
+                <li><strong>Công thức:</strong> C₁₂H₂₂O₁₁.</li>
+                <li><strong>Khái niệm:</strong> Disaccharide tạo bởi glucose và fructose.</li>
+                <li><strong>Tính chất vật lí:</strong> Chất rắn kết tinh, không màu, dễ tan trong nước, có vị ngọt.</li>
+                <li><strong>Tính chất hóa học:</strong> Hòa tan Cu(OH)₂ tạo dung dịch xanh lam; thủy phân tạo glucose và fructose; không có phản ứng tráng bạc.</li>
+                <li><strong>Ứng dụng:</strong> Sản xuất đường ăn, bánh kẹo và thực phẩm.</li>
+            </ul>
+
+            <h4>2.4. Maltose (Maltôzơ)</h4>
+            <ul>
+                <li><strong>Công thức:</strong> C₁₂H₂₂O₁₁.</li>
+                <li><strong>Khái niệm:</strong> Disaccharide tạo bởi hai đơn vị glucose.</li>
+                <li><strong>Tính chất:</strong> Có tính khử, tham gia phản ứng tráng bạc; thủy phân tạo glucose.</li>
+                <li><strong>Ứng dụng:</strong> Có trong mạch nha, được sử dụng trong công nghiệp thực phẩm.</li>
+            </ul>
+
+            <h4>2.5. Tinh bột</h4>
+            <ul>
+                <li><strong>Công thức:</strong> (C₆H₁₀O₅)n.</li>
+                <li><strong>Khái niệm:</strong> Polysaccharide dự trữ năng lượng trong thực vật.</li>
+                <li><strong>Tính chất vật lí:</strong> Chất rắn vô định hình, không tan trong nước lạnh; trong nước nóng tạo hồ tinh bột.</li>
+                <li><strong>Tính chất hóa học:</strong> Phản ứng với iodine tạo màu xanh tím; thủy phân tạo glucose.</li>
+                <li><strong>Ứng dụng:</strong> Sản xuất thực phẩm, glucose, ethanol và hồ dán.</li>
+            </ul>
+
+            <h4>2.6. Cellulose</h4>
+            <ul>
+                <li><strong>Công thức:</strong> (C₆H₁₀O₅)n.</li>
+                <li><strong>Khái niệm:</strong> Polysaccharide cấu tạo nên thành tế bào thực vật.</li>
+                <li><strong>Tính chất vật lí:</strong> Chất rắn dạng sợi, màu trắng, không tan trong nước và dung môi hữu cơ thông thường.</li>
+                <li><strong>Tính chất hóa học:</strong> Thủy phân tạo glucose; phản ứng với HNO₃ tạo cellulose trinitrate.</li>
+                <li><strong>Ứng dụng:</strong> Sản xuất giấy, vải sợi, tơ nhân tạo và vật liệu.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>3. Hợp chất chứa Nitrogen</h3>
+        <div class="topic-content">
+
+            <h4>3.1. Amine</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Amine là dẫn xuất của ammonia, trong đó một hay nhiều nguyên tử hydrogen được thay thế bằng gốc hydrocarbon.</li>
+                <li><strong>Phân loại:</strong> Amine bậc I, bậc II, bậc III.</li>
+                <li><strong>Danh pháp:</strong> Tên gốc hydrocarbon + amine hoặc tên thay thế theo quy tắc danh pháp.</li>
+                <li><strong>Tính chất vật lí:</strong> Amine có phân tử khối nhỏ thường tan trong nước; một số có mùi khai hoặc tanh.</li>
+            </ul>
+
+            <h4>Tính chất hóa học</h4>
+            <ul>
+                <li>Có tính base do nguyên tử nitrogen có cặp electron tự do.</li>
+                <li>Phản ứng với acid tạo muối ammonium.</li>
+                <li>Aniline phản ứng với nước bromine tạo kết tủa trắng.</li>
+            </ul>
+
+            <div class="formula">
+                RNH₂ + HCl → RNH₃Cl
+            </div>
+
+            <h4>Ứng dụng</h4>
+            <p>Sản xuất thuốc, phẩm nhuộm, polymer và hóa chất công nghiệp.</p>
+
+            <h4>3.2. Amino acid</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Hợp chất hữu cơ chứa đồng thời nhóm amino (–NH₂) và nhóm carboxyl (–COOH).</li>
+                <li><strong>Công thức tổng quát:</strong> H₂N–R–COOH.</li>
+                <li><strong>Tính chất vật lí:</strong> Thường là chất rắn kết tinh, tan trong nước, có nhiệt độ nóng chảy cao.</li>
+                <li><strong>Tính chất hóa học:</strong> Có tính lưỡng tính, phản ứng với acid và base; tham gia phản ứng tạo peptide.</li>
+                <li><strong>Ứng dụng:</strong> Thành phần cấu tạo protein, sản xuất thực phẩm và dược phẩm.</li>
+            </ul>
+
+            <h4>3.3. Peptide</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Peptide là hợp chất tạo bởi các gốc α-amino acid liên kết với nhau bằng liên kết peptide (–CO–NH–).</li>
+                <li><strong>Phân loại:</strong> Dipeptide, tripeptide và polypeptide.</li>
+                <li><strong>Tính chất hóa học:</strong> Phản ứng thủy phân; phản ứng màu biuret với peptide có từ hai liên kết peptide trở lên.</li>
+                <li><strong>Ứng dụng:</strong> Có vai trò quan trọng trong cơ thể sống và nghiên cứu sinh học.</li>
+            </ul>
+
+            <h4>3.4. Protein</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Protein là những đại phân tử sinh học được cấu tạo từ các α-amino acid.</li>
+                <li><strong>Tính chất vật lí:</strong> Một số protein tan trong nước, một số không tan; dễ bị biến tính bởi nhiệt độ và hóa chất.</li>
+                <li><strong>Tính chất hóa học:</strong> Thủy phân tạo amino acid; phản ứng màu biuret; phản ứng với HNO₃ đặc tạo màu vàng.</li>
+                <li><strong>Vai trò:</strong> Cấu tạo tế bào, xúc tác sinh học, vận chuyển và bảo vệ cơ thể.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>4. Polymer</h3>
+        <div class="topic-content">
+
+            <ul>
+                <li><strong>Khái niệm:</strong> Polymer là hợp chất có phân tử khối rất lớn, được tạo thành từ nhiều đơn vị nhỏ gọi là mắt xích.</li>
+                <li><strong>Monomer:</strong> Phân tử nhỏ có khả năng tham gia phản ứng tạo polymer.</li>
+                <li><strong>Phân loại:</strong> Polymer thiên nhiên, polymer tổng hợp và polymer bán tổng hợp.</li>
+            </ul>
+
+            <h4>Phương pháp điều chế</h4>
+            <ul>
+                <li><strong>Phản ứng trùng hợp:</strong> Kết hợp nhiều phân tử monomer tạo polymer, không giải phóng phân tử nhỏ.</li>
+                <li><strong>Phản ứng trùng ngưng:</strong> Kết hợp các monomer có ít nhất hai nhóm chức, đồng thời giải phóng phân tử nhỏ như H₂O.</li>
+            </ul>
+
+            <h4>Một số polymer quan trọng</h4>
+            <table>
+                <tr><th>Polymer</th><th>Monomer / nguyên liệu</th><th>Ứng dụng</th></tr>
+                <tr><td>Polyethylene (PE)</td><td>Ethylene</td><td>Túi nhựa, màng bọc</td></tr>
+                <tr><td>Polypropylene (PP)</td><td>Propylene</td><td>Đồ gia dụng, bao bì</td></tr>
+                <tr><td>Polyvinyl chloride (PVC)</td><td>Vinyl chloride</td><td>Ống nhựa, dây điện</td></tr>
+                <tr><td>Polystyrene (PS)</td><td>Styrene</td><td>Vật liệu đóng gói</td></tr>
+                <tr><td>Poly(methyl methacrylate) (PMMA)</td><td>Methyl methacrylate</td><td>Thủy tinh hữu cơ</td></tr>
+                <tr><td>Nylon-6,6</td><td>Hexamethylenediamine và adipic acid</td><td>Tơ tổng hợp</td></tr>
+                <tr><td>Polyester</td><td>Các monomer có nhóm chức phù hợp</td><td>Sợi vải, vật liệu</td></tr>
+                <tr><td>Cao su Buna</td><td>Butadiene</td><td>Lốp xe, vật liệu đàn hồi</td></tr>
+            </table>
+
+            <h4>Tính chất của polymer</h4>
+            <ul>
+                <li>Phần lớn là chất rắn, không bay hơi.</li>
+                <li>Thường không tan trong nước và dung môi thông thường.</li>
+                <li>Có tính dẻo, đàn hồi hoặc độ bền cơ học tùy cấu trúc.</li>
+                <li>Một số polymer bị phân hủy khi đun nóng hoặc chịu tác động hóa học.</li>
+            </ul>
+
+            <h4>Ứng dụng</h4>
+            <p>Sản xuất nhựa, cao su, tơ sợi, vật liệu xây dựng, đồ gia dụng và nhiều sản phẩm công nghiệp.</p>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>5. Pin điện và điện phân</h3>
+        <div class="topic-content">
+
+            <h4>5.1. Pin điện hóa</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Pin điện hóa biến đổi năng lượng hóa học thành năng lượng điện thông qua phản ứng oxi hóa – khử tự xảy ra.</li>
+                <li><strong>Anode:</strong> Điện cực xảy ra quá trình oxi hóa, phát electron.</li>
+                <li><strong>Cathode:</strong> Điện cực xảy ra quá trình khử, nhận electron.</li>
+                <li>Electron di chuyển từ anode sang cathode qua dây dẫn ngoài.</li>
+            </ul>
+
+            <h4>5.2. Điện phân</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Điện phân là quá trình sử dụng dòng điện một chiều để thực hiện phản ứng oxi hóa – khử không tự xảy ra.</li>
+                <li><strong>Cathode:</strong> Xảy ra quá trình khử.</li>
+                <li><strong>Anode:</strong> Xảy ra quá trình oxi hóa.</li>
+                <li>Điện phân được sử dụng để điều chế kim loại, tinh chế kim loại và sản xuất hóa chất.</li>
+            </ul>
+
+            <h4>5.3. Định luật Faraday</h4>
+            <div class="formula">
+                Q = I × t
+                <br>
+                n(e) = Q / F
+                <br>
+                m = A × I × t / (n × F)
+            </div>
+
+            <p>Trong đó: Q là điện lượng (C), I là cường độ dòng điện (A), t là thời gian (s), F ≈ 96500 C/mol, A là khối lượng mol nguyên tử, n là số electron trao đổi.</p>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>6. Đại cương về kim loại</h3>
+        <div class="topic-content">
+
+            <h4>Cấu tạo và tính chất vật lí</h4>
+            <ul>
+                <li><strong>Cấu tạo:</strong> Kim loại có các nguyên tử liên kết với nhau bằng liên kết kim loại.</li>
+                <li><strong>Tính chất vật lí chung:</strong> Tính dẻo, dẫn điện, dẫn nhiệt và ánh kim.</li>
+                <li><strong>Nguyên nhân:</strong> Do electron tự do trong mạng tinh thể kim loại.</li>
+            </ul>
+
+            <h4>Tính chất hóa học</h4>
+            <p>Kim loại có tính khử, dễ nhường electron tạo ion dương:</p>
+
+            <div class="formula">
+                M → Mⁿ⁺ + ne
+            </div>
+
+            <ul>
+                <li>Tác dụng với phi kim: O₂, Cl₂, S...</li>
+                <li>Tác dụng với nước: Một số kim loại mạnh phản ứng tạo base và hydrogen.</li>
+                <li>Tác dụng với acid: Kim loại đứng trước hydrogen có thể phản ứng với acid thích hợp giải phóng H₂.</li>
+                <li>Tác dụng với dung dịch muối: Kim loại mạnh hơn có thể đẩy kim loại yếu hơn ra khỏi muối.</li>
+            </ul>
+
+            <h4>Điều chế kim loại</h4>
+            <ul>
+                <li><strong>Điện phân nóng chảy:</strong> Điều chế kim loại hoạt động hóa học mạnh.</li>
+                <li><strong>Nhiệt luyện:</strong> Dùng chất khử ở nhiệt độ cao để khử oxide kim loại.</li>
+                <li><strong>Thủy luyện:</strong> Dùng kim loại hoặc chất thích hợp để tách kim loại khỏi dung dịch muối.</li>
+            </ul>
+
+            <h4>Hợp kim và ăn mòn kim loại</h4>
+            <ul>
+                <li><strong>Hợp kim:</strong> Vật liệu kim loại chứa một kim loại cơ bản và một hoặc nhiều nguyên tố khác.</li>
+                <li><strong>Ăn mòn hóa học:</strong> Kim loại phản ứng trực tiếp với chất trong môi trường.</li>
+                <li><strong>Ăn mòn điện hóa:</strong> Xảy ra khi có hai điện cực khác nhau tiếp xúc và cùng tiếp xúc với dung dịch điện li.</li>
+                <li><strong>Chống ăn mòn:</strong> Sơn phủ, mạ kim loại, bảo vệ điện hóa và sử dụng hợp kim chống ăn mòn.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>7. Kim loại nhóm IA và IIA</h3>
+        <div class="topic-content">
+
+            <h4>7.1. Kim loại kiềm (nhóm IA)</h4>
+            <ul>
+                <li><strong>Nguyên tố:</strong> Li, Na, K, Rb, Cs, Fr.</li>
+                <li><strong>Cấu hình electron lớp ngoài cùng:</strong> ns¹.</li>
+                <li><strong>Tính chất:</strong> Kim loại mềm, nhẹ, có tính khử mạnh.</li>
+                <li><strong>Xu hướng:</strong> Tính khử tăng dần từ Li đến Cs.</li>
+            </ul>
+
+            <h4>Tính chất hóa học</h4>
+            <ul>
+                <li>Tác dụng mạnh với nước tạo hydroxide và hydrogen.</li>
+                <li>Tác dụng với oxygen tạo các oxide hoặc peroxide tùy kim loại.</li>
+                <li>Tác dụng với halogen tạo muối halide.</li>
+            </ul>
+
+            <div class="formula">
+                2Na + 2H₂O → 2NaOH + H₂
+            </div>
+
+            <h4>Một số hợp chất quan trọng</h4>
+            <ul>
+                <li><strong>NaOH:</strong> Base mạnh, dùng trong sản xuất xà phòng, giấy và hóa chất.</li>
+                <li><strong>Na₂CO₃:</strong> Soda, dùng sản xuất thủy tinh và chất tẩy rửa.</li>
+                <li><strong>NaHCO₃:</strong> Baking soda, dùng trong thực phẩm và y tế.</li>
+                <li><strong>KCl:</strong> Phân bón cung cấp kali.</li>
+            </ul>
+
+            <h4>7.2. Kim loại kiềm thổ (nhóm IIA)</h4>
+            <ul>
+                <li><strong>Nguyên tố:</strong> Be, Mg, Ca, Sr, Ba, Ra.</li>
+                <li><strong>Cấu hình electron lớp ngoài cùng:</strong> ns².</li>
+                <li><strong>Tính chất:</strong> Có tính khử, thường tạo ion M²⁺.</li>
+                <li>Tính khử nhìn chung tăng dần từ Be đến Ba.</li>
+            </ul>
+
+            <h4>Một số phản ứng</h4>
+            <div class="formula">
+                Ca + 2H₂O → Ca(OH)₂ + H₂
+            </div>
+
+            <h4>Một số hợp chất quan trọng</h4>
+            <ul>
+                <li><strong>CaO:</strong> Vôi sống, dùng trong xây dựng và xử lí môi trường.</li>
+                <li><strong>Ca(OH)₂:</strong> Vôi tôi, dùng xử lí nước và khử chua đất.</li>
+                <li><strong>CaCO₃:</strong> Đá vôi, nguyên liệu sản xuất vôi và xi măng.</li>
+                <li><strong>CaSO₄·2H₂O:</strong> Thạch cao sống, dùng trong xây dựng và y tế.</li>
+            </ul>
+
+            <h4>Nước cứng</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Nước chứa nhiều ion Ca²⁺ và Mg²⁺.</li>
+                <li><strong>Nước cứng tạm thời:</strong> Chứa các muối bicarbonate của calcium và magnesium.</li>
+                <li><strong>Nước cứng vĩnh cửu:</strong> Chứa các muối chloride và sulfate của calcium, magnesium.</li>
+                <li><strong>Làm mềm nước:</strong> Đun sôi, dùng hóa chất thích hợp hoặc phương pháp trao đổi ion.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>8. Kim loại chuyển tiếp và phức chất</h3>
+        <div class="topic-content">
+
+            <h4>Kim loại chuyển tiếp</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Là những nguyên tố có nguyên tử hoặc ion có phân lớp d chưa bão hòa.</li>
+                <li><strong>Đặc điểm:</strong> Có nhiều số oxi hóa, tạo hợp chất có màu và có khả năng tạo phức.</li>
+                <li>Một số kim loại chuyển tiếp: Fe, Cu, Cr, Mn, Ni, Co.</li>
+            </ul>
+
+            <h4>Một số hợp chất quan trọng</h4>
+            <ul>
+                <li><strong>FeO:</strong> Iron(II) oxide, có tính base và tính khử.</li>
+                <li><strong>Fe₂O₃:</strong> Iron(III) oxide, có tính base.</li>
+                <li><strong>Fe₃O₄:</strong> Iron(II,III) oxide, có tính từ.</li>
+                <li><strong>CuO:</strong> Copper(II) oxide, chất rắn màu đen.</li>
+                <li><strong>CuSO₄:</strong> Copper(II) sulfate, tinh thể ngậm nước có màu xanh.</li>
+            </ul>
+
+            <h4>Phức chất</h4>
+            <ul>
+                <li><strong>Khái niệm:</strong> Phức chất là hợp chất có nguyên tử hoặc ion kim loại trung tâm liên kết với các phối tử.</li>
+                <li><strong>Ion trung tâm:</strong> Thường là ion kim loại chuyển tiếp.</li>
+                <li><strong>Phối tử:</strong> Phân tử hoặc ion có cặp electron tự do tạo liên kết cho – nhận với ion trung tâm.</li>
+                <li><strong>Số phối trí:</strong> Số nguyên tử cho liên kết trực tiếp với nguyên tử hoặc ion trung tâm.</li>
+            </ul>
+
+            <h4>Ứng dụng</h4>
+            <p>Phức chất được sử dụng trong phân tích hóa học, y học, công nghiệp và xử lí môi trường.</p>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>9. Bảng ghi nhớ nhanh</h3>
+        <div class="topic-content">
+
+            <table>
+                <tr>
+                    <th>Chất / Nhóm chất</th>
+                    <th>Thuốc thử / Phản ứng nhận biết</th>
+                    <th>Hiện tượng</th>
+                </tr>
+                <tr><td>Glucose</td><td>AgNO₃/NH₃</td><td>Tạo bạc kim loại</td></tr>
+                <tr><td>Tinh bột</td><td>Iodine</td><td>Màu xanh tím</td></tr>
+                <tr><td>Protein</td><td>Cu(OH)₂ trong môi trường kiềm</td><td>Màu tím</td></tr>
+                <tr><td>Aniline</td><td>Nước bromine</td><td>Kết tủa trắng</td></tr>
+                <tr><td>Cu²⁺</td><td>NaOH</td><td>Kết tủa xanh lam</td></tr>
+                <tr><td>Fe³⁺</td><td>NaOH</td><td>Kết tủa nâu đỏ</td></tr>
+                <tr><td>Fe²⁺</td><td>NaOH</td><td>Kết tủa trắng xanh, hóa nâu ngoài không khí</td></tr>
+            </table>
+
+            <h4>Các công thức cần nhớ</h4>
+            <div class="formula">
+                n = m / M
+                <br>
+                C<sub>M</sub> = n / V
+                <br>
+                C% = (m chất tan / m dung dịch) × 100%
+                <br>
+                Q = I × t
+                <br>
+                n(e) = Q / F
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================================================== -->
+<!-- TIẾNG ANH 12 -->
+<!-- ================================================== -->
+
+<section class="subject english" id="tieng-anh">
+
+    <h2 class="subject-title">II. TIẾNG ANH 12</h2>
+
+    <div class="topic">
+        <h3>1. Ngữ pháp động từ (Verb Grammar)</h3>
+        <div class="topic-content">
+
+            <h4>1.1. 12 thì trong tiếng Anh</h4>
+
+            <table>
+                <tr><th>Thì</th><th>Công thức cơ bản</th><th>Cách dùng</th></tr>
+                <tr><td>Present Simple</td><td>S + V(s/es)</td><td>Thói quen, sự thật hiển nhiên.</td></tr>
+                <tr><td>Present Continuous</td><td>S + am/is/are + V-ing</td><td>Hành động đang diễn ra.</td></tr>
+                <tr><td>Present Perfect</td><td>S + have/has + V3</td><td>Hành động đã xảy ra, có liên hệ hiện tại.</td></tr>
+                <tr><td>Present Perfect Continuous</td><td>S + have/has been + V-ing</td><td>Nhấn mạnh quá trình kéo dài đến hiện tại.</td></tr>
+                <tr><td>Past Simple</td><td>S + V2/ed</td><td>Hành động đã kết thúc trong quá khứ.</td></tr>
+                <tr><td>Past Continuous</td><td>S + was/were + V-ing</td><td>Hành động đang diễn ra tại thời điểm quá khứ.</td></tr>
+                <tr><td>Past Perfect</td><td>S + had + V3</td><td>Hành động xảy ra trước một hành động khác trong quá khứ.</td></tr>
+                <tr><td>Past Perfect Continuous</td><td>S + had been + V-ing</td><td>Nhấn mạnh quá trình kéo dài trước một mốc quá khứ.</td></tr>
+                <tr><td>Future Simple</td><td>S + will + V</td><td>Dự đoán, quyết định tại thời điểm nói.</td></tr>
+                <tr><td>Future Continuous</td><td>S + will be + V-ing</td><td>Hành động đang diễn ra tại thời điểm tương lai.</td></tr>
+                <tr><td>Future Perfect</td><td>S + will have + V3</td><td>Hành động hoàn thành trước một mốc tương lai.</td></tr>
+                <tr><td>Future Perfect Continuous</td><td>S + will have been + V-ing</td><td>Nhấn mạnh khoảng thời gian kéo dài đến một mốc tương lai.</td></tr>
+            </table>
+
+            <h4>1.2. Phân biệt các thì dễ nhầm</h4>
+            <ul>
+                <li><strong>Past Simple:</strong> Hành động đã kết thúc tại thời điểm xác định trong quá khứ.</li>
+                <li><strong>Present Perfect:</strong> Hành động có kết quả hoặc liên hệ với hiện tại, không xác định thời điểm cụ thể đã qua.</li>
+                <li><strong>Past Continuous:</strong> Hành động đang diễn ra tại một thời điểm trong quá khứ.</li>
+                <li><strong>Past Perfect:</strong> Hành động xảy ra trước một hành động hoặc mốc thời gian khác trong quá khứ.</li>
+            </ul>
+
+            <h4>1.3. Sự phối hợp thì (Sequence of tenses)</h4>
+            <ul>
+                <li>Trong câu có hai mệnh đề, thì của động từ cần phù hợp với quan hệ thời gian giữa các hành động.</li>
+                <li>Sau các liên từ thời gian như when, before, after, as soon as, until, mệnh đề chỉ tương lai thường dùng thì hiện tại đơn.</li>
+                <li>Trong câu tường thuật, động từ ở mệnh đề chính dạng quá khứ thường khiến thì ở mệnh đề phụ lùi về quá khứ.</li>
+            </ul>
+
+            <h4>1.4. Câu bị động (Passive Voice)</h4>
+            <div class="formula">
+                S + be + V3/ed + (by O)
+            </div>
+            <ul>
+                <li>Động từ be phải được chia theo thì của câu chủ động.</li>
+                <li>Tân ngữ của câu chủ động chuyển thành chủ ngữ của câu bị động.</li>
+                <li><strong>Bị động kép:</strong> It is said that... / He is said to...</li>
+                <li><strong>Câu sai khiến:</strong> have/get something done.</li>
+                <li><strong>Động từ tường thuật:</strong> S + be + said/believed/thought + to V hoặc to have V3.</li>
+            </ul>
+
+            <h4>1.5. Câu điều kiện và câu ước</h4>
+            <table>
+                <tr><th>Loại</th><th>Mệnh đề If</th><th>Mệnh đề chính</th></tr>
+                <tr><td>Type 1</td><td>If + S + V(s/es)</td><td>S + will + V</td></tr>
+                <tr><td>Type 2</td><td>If + S + V2/ed</td><td>S + would + V</td></tr>
+                <tr><td>Type 3</td><td>If + S + had + V3</td><td>S + would have + V3</td></tr>
+                <tr><td>Mixed 2–3</td><td>If + S + had + V3</td><td>S + would + V</td></tr>
+            </table>
+
+            <p><strong>Câu ước (Wish / If only):</strong></p>
+            <ul>
+                <li>Ước ở hiện tại: S + wish + S + V2/ed.</li>
+                <li>Ước ở quá khứ: S + wish + S + had + V3.</li>
+                <li>Ước ở tương lai: S + wish + S + would + V.</li>
+            </ul>
+
+            <h4>1.6. Thì tương lai hoàn thành</h4>
+            <div class="formula">
+                S + will have + V3/ed
+            </div>
+            <p>Diễn tả hành động sẽ hoàn thành trước một thời điểm hoặc hành động khác trong tương lai. Dấu hiệu thường gặp: by, by the time, before.</p>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>2. Cấu trúc câu (Sentence Structures)</h3>
+        <div class="topic-content">
+
+            <h4>2.1. Mệnh đề quan hệ (Relative Clauses)</h4>
+            <table>
+                <tr><th>Từ quan hệ</th><th>Cách dùng</th></tr>
+                <tr><td>Who</td><td>Thay thế cho danh từ chỉ người, làm chủ ngữ.</td></tr>
+                <tr><td>Whom</td><td>Thay thế cho danh từ chỉ người, làm tân ngữ.</td></tr>
+                <tr><td>Which</td><td>Thay thế cho danh từ chỉ vật hoặc cả mệnh đề phía trước.</td></tr>
+                <tr><td>That</td><td>Thay thế cho người hoặc vật trong mệnh đề quan hệ xác định.</td></tr>
+                <tr><td>Whose</td><td>Chỉ sự sở hữu.</td></tr>
+            </table>
+
+            <ul>
+                <li><strong>Mệnh đề quan hệ xác định:</strong> Cung cấp thông tin cần thiết để xác định danh từ.</li>
+                <li><strong>Mệnh đề quan hệ không xác định:</strong> Bổ sung thông tin, thường được ngăn cách bằng dấu phẩy.</li>
+                <li><strong>Which thay thế cả câu:</strong> Dùng để nhận xét hoặc bổ sung thông tin về toàn bộ mệnh đề phía trước.</li>
+            </ul>
+
+            <h4>2.2. Lời nói gián tiếp (Reported Speech)</h4>
+            <ul>
+                <li>Thay đổi thì của động từ khi cần lùi thì.</li>
+                <li>Thay đổi đại từ nhân xưng và tính từ sở hữu phù hợp với ngữ cảnh.</li>
+                <li>Thay đổi trạng từ chỉ thời gian và nơi chốn.</li>
+                <li>Câu hỏi Yes/No: S + asked + if/whether + S + V.</li>
+                <li>Câu hỏi Wh-: S + asked + Wh-word + S + V.</li>
+                <li>Câu mệnh lệnh: S + told/asked + O + (not) to V.</li>
+            </ul>
+
+            <h4>2.3. Mệnh đề trạng ngữ và liên từ</h4>
+            <table>
+                <tr><th>Quan hệ</th><th>Liên từ / Cấu trúc</th></tr>
+                <tr><td>Thời gian</td><td>When, while, before, after, until, as soon as.</td></tr>
+                <tr><td>Nguyên nhân</td><td>Because, since, as, because of, due to.</td></tr>
+                <tr><td>Kết quả</td><td>So...that, such...that, therefore.</td></tr>
+                <tr><td>Tương phản</td><td>Although, though, even though, despite, in spite of.</td></tr>
+                <tr><td>Mục đích</td><td>So that, in order that, in order to, so as to.</td></tr>
+                <tr><td>Điều kiện</td><td>If, unless, provided that, as long as.</td></tr>
+            </table>
+
+            <h4>2.4. Câu so sánh (Comparisons)</h4>
+            <ul>
+                <li><strong>So sánh bằng:</strong> S + be/V + as + adj/adv + as.</li>
+                <li><strong>So sánh hơn:</strong> S + be/V + adj-er / more + adj + than.</li>
+                <li><strong>So sánh nhất:</strong> S + be/V + the + adj-est / most + adj.</li>
+                <li><strong>So sánh kép:</strong> The + comparative..., the + comparative...</li>
+            </ul>
+
+            <h4>2.5. Câu giả định (Subjunctive)</h4>
+            <div class="formula">
+                S + suggest/demand/insist + that + S + (should) + V
+                <br>
+                It is important/necessary + that + S + (should) + V
+            </div>
+            <p>Động từ trong mệnh đề giả định thường ở dạng nguyên mẫu không có to.</p>
+
+            <h4>2.6. Đảo ngữ (Inversion)</h4>
+            <ul>
+                <li>Never, rarely, seldom: Đưa trợ động từ lên trước chủ ngữ.</li>
+                <li>Hardly/Scarcely...when; No sooner...than.</li>
+                <li>Only after, only when, only by: Đảo ngữ ở mệnh đề chính khi cụm Only đứng đầu câu.</li>
+                <li>Not only...but also: Đảo ngữ ở mệnh đề có Not only đứng đầu.</li>
+            </ul>
+
+            <h4>2.7. Câu hỏi đuôi (Question Tags)</h4>
+            <ul>
+                <li>Mệnh đề chính khẳng định → câu hỏi đuôi phủ định.</li>
+                <li>Mệnh đề chính phủ định → câu hỏi đuôi khẳng định.</li>
+                <li>Trợ động từ trong câu hỏi đuôi phải phù hợp với thì của mệnh đề chính.</li>
+                <li>Chủ ngữ thường được thay bằng đại từ nhân xưng tương ứng.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>3. Từ loại và dạng thức động từ (Word Forms & Verb Patterns)</h3>
+        <div class="topic-content">
+
+            <h4>3.1. Gerund (V-ing) và To-infinitive (To V)</h4>
+            <ul>
+                <li><strong>V-ing:</strong> Thường đứng sau enjoy, avoid, finish, suggest, mind, consider...</li>
+                <li><strong>To V:</strong> Thường đứng sau want, decide, hope, plan, agree, promise...</li>
+                <li><strong>Cả hai nhưng khác nghĩa:</strong> Remember, forget, stop, try, regret...</li>
+                <li>V-ing có thể làm chủ ngữ, tân ngữ hoặc đứng sau giới từ.</li>
+            </ul>
+
+            <h4>3.2. Thể sai khiến (Causative Form)</h4>
+            <ul>
+                <li><strong>Chủ động:</strong> have + somebody + V; get + somebody + to V.</li>
+                <li><strong>Bị động:</strong> have/get + something + V3/ed.</li>
+            </ul>
+
+            <h4>3.3. Từ loại và cấu tạo từ (Word Formation)</h4>
+            <table>
+                <tr><th>Từ loại</th><th>Vị trí thường gặp</th><th>Hậu tố phổ biến</th></tr>
+                <tr><td>Danh từ (Noun)</td><td>Sau mạo từ, tính từ; làm chủ ngữ hoặc tân ngữ.</td><td>-tion, -ment, -ness, -ity, -er, -or.</td></tr>
+                <tr><td>Động từ (Verb)</td><td>Sau chủ ngữ, sau to, sau trợ động từ.</td><td>-ize, -ise, -ify, -en.</td></tr>
+                <tr><td>Tính từ (Adjective)</td><td>Trước danh từ hoặc sau động từ nối.</td><td>-ful, -less, -ous, -able, -al, -ive.</td></tr>
+                <tr><td>Trạng từ (Adverb)</td><td>Bổ nghĩa cho động từ, tính từ hoặc trạng từ khác.</td><td>-ly, -ward, -wise.</td></tr>
+            </table>
+
+            <h4>3.4. Cụm động từ và giới từ</h4>
+            <ul>
+                <li><strong>Phrasal verbs:</strong> Look after, look for, give up, turn on, turn off, put off, carry out, find out, take part in, get along with...</li>
+                <li><strong>Giới từ:</strong> Chú ý các cụm động từ và tính từ đi kèm giới từ cố định như interested in, good at, depend on, belong to, responsible for...</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>4. Từ vựng trọng tâm theo các Unit (Global Success 12)</h3>
+        <div class="topic-content">
+
+            <p>Danh sách từ vựng được sắp xếp theo chủ đề từng Unit. Tiêu đề Unit được giữ nguyên bằng tiếng Anh.</p>
+
+            <h4>Unit 1: Life stories we admire</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Admire</td><td>Ngưỡng mộ</td></tr>
+                <tr><td>Achievement</td><td>Thành tựu</td></tr>
+                <tr><td>Accomplish</td><td>Hoàn thành, đạt được</td></tr>
+                <tr><td>Inspire</td><td>Truyền cảm hứng</td></tr>
+                <tr><td>Inspiration</td><td>Nguồn cảm hứng</td></tr>
+                <tr><td>Biography</td><td>Tiểu sử</td></tr>
+                <tr><td>Contribution</td><td>Sự đóng góp</td></tr>
+                <tr><td>Dedication</td><td>Sự cống hiến</td></tr>
+                <tr><td>Determination</td><td>Sự quyết tâm</td></tr>
+                <tr><td>Overcome</td><td>Vượt qua</td></tr>
+                <tr><td>Perseverance</td><td>Sự kiên trì</td></tr>
+                <tr><td>Resilience</td><td>Khả năng phục hồi</td></tr>
+                <tr><td>Legacy</td><td>Di sản</td></tr>
+                <tr><td>Influential</td><td>Có ảnh hưởng</td></tr>
+                <tr><td>Devote</td><td>Cống hiến</td></tr>
+                <tr><td>Role model</td><td>Hình mẫu</td></tr>
+                <tr><td>Ambition</td><td>Tham vọng, hoài bão</td></tr>
+                <tr><td>Struggle</td><td>Đấu tranh, nỗ lực</td></tr>
+                <tr><td>Fame</td><td>Danh tiếng</td></tr>
+                <tr><td>Historical figure</td><td>Nhân vật lịch sử</td></tr>
+            </table>
+
+            <h4>Unit 2: A multicultural world</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Multicultural</td><td>Đa văn hóa</td></tr>
+                <tr><td>Diversity</td><td>Sự đa dạng</td></tr>
+                <tr><td>Culture</td><td>Văn hóa</td></tr>
+                <tr><td>Tradition</td><td>Truyền thống</td></tr>
+                <tr><td>Custom</td><td>Phong tục</td></tr>
+                <tr><td>Ethnic</td><td>Thuộc dân tộc</td></tr>
+                <tr><td>Identity</td><td>Bản sắc</td></tr>
+                <tr><td>Heritage</td><td>Di sản</td></tr>
+                <tr><td>Belief</td><td>Niềm tin</td></tr>
+                <tr><td>Religion</td><td>Tôn giáo</td></tr>
+                <tr><td>Festival</td><td>Lễ hội</td></tr>
+                <tr><td>Celebration</td><td>Sự kỷ niệm, lễ mừng</td></tr>
+                <tr><td>Integrate</td><td>Hòa nhập</td></tr>
+                <tr><td>Adapt</td><td>Thích nghi</td></tr>
+                <tr><td>Respect</td><td>Tôn trọng</td></tr>
+                <tr><td>Tolerance</td><td>Sự khoan dung</td></tr>
+                <tr><td>Discrimination</td><td>Sự phân biệt đối xử</td></tr>
+                <tr><td>Stereotype</td><td>Định kiến</td></tr>
+                <tr><td>Globalisation</td><td>Toàn cầu hóa</td></tr>
+                <tr><td>Exchange</td><td>Sự trao đổi</td></tr>
+            </table>
+
+            <h4>Unit 3: Green living</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Sustainable</td><td>Bền vững</td></tr>
+                <tr><td>Sustainability</td><td>Tính bền vững</td></tr>
+                <tr><td>Environment</td><td>Môi trường</td></tr>
+                <tr><td>Pollution</td><td>Sự ô nhiễm</td></tr>
+                <tr><td>Renewable</td><td>Có thể tái tạo</td></tr>
+                <tr><td>Energy</td><td>Năng lượng</td></tr>
+                <tr><td>Conservation</td><td>Sự bảo tồn</td></tr>
+                <tr><td>Recycle</td><td>Tái chế</td></tr>
+                <tr><td>Reuse</td><td>Tái sử dụng</td></tr>
+                <tr><td>Reduce</td><td>Giảm thiểu</td></tr>
+                <tr><td>Carbon footprint</td><td>Dấu chân carbon</td></tr>
+                <tr><td>Emission</td><td>Khí thải</td></tr>
+                <tr><td>Climate change</td><td>Biến đổi khí hậu</td></tr>
+                <tr><td>Eco-friendly</td><td>Thân thiện với môi trường</td></tr>
+                <tr><td>Biodegradable</td><td>Có thể phân hủy sinh học</td></tr>
+                <tr><td>Waste</td><td>Chất thải</td></tr>
+                <tr><td>Organic</td><td>Hữu cơ</td></tr>
+                <tr><td>Deforestation</td><td>Nạn phá rừng</td></tr>
+                <tr><td>Solar power</td><td>Năng lượng mặt trời</td></tr>
+                <tr><td>Wind power</td><td>Năng lượng gió</td></tr>
+            </table>
+
+            <h4>Unit 4: Urbanisation</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Urbanisation</td><td>Đô thị hóa</td></tr>
+                <tr><td>Urban</td><td>Thuộc đô thị</td></tr>
+                <tr><td>Rural</td><td>Thuộc nông thôn</td></tr>
+                <tr><td>Population</td><td>Dân số</td></tr>
+                <tr><td>Population density</td><td>Mật độ dân số</td></tr>
+                <tr><td>Infrastructure</td><td>Cơ sở hạ tầng</td></tr>
+                <tr><td>Residential area</td><td>Khu dân cư</td></tr>
+                <tr><td>Skyscraper</td><td>Nhà chọc trời</td></tr>
+                <tr><td>Suburb</td><td>Vùng ngoại ô</td></tr>
+                <tr><td>Migration</td><td>Sự di cư</td></tr>
+                <tr><td>Overcrowding</td><td>Tình trạng quá đông đúc</td></tr>
+                <tr><td>Traffic congestion</td><td>Tắc nghẽn giao thông</td></tr>
+                <tr><td>Accommodation</td><td>Chỗ ở</td></tr>
+                <tr><td>Employment</td><td>Việc làm</td></tr>
+                <tr><td>Unemployment</td><td>Thất nghiệp</td></tr>
+                <tr><td>Public transport</td><td>Giao thông công cộng</td></tr>
+                <tr><td>Facilities</td><td>Cơ sở vật chất</td></tr>
+                <tr><td>Slum</td><td>Khu ổ chuột</td></tr>
+                <tr><td>Develop</td><td>Phát triển</td></tr>
+                <tr><td>Modernisation</td><td>Hiện đại hóa</td></tr>
+            </table>
+
+            <h4>Unit 5: The world of work</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Occupation</td><td>Nghề nghiệp</td></tr>
+                <tr><td>Profession</td><td>Chuyên môn, nghề nghiệp</td></tr>
+                <tr><td>Career</td><td>Sự nghiệp</td></tr>
+                <tr><td>Employee</td><td>Người lao động</td></tr>
+                <tr><td>Employer</td><td>Người sử dụng lao động</td></tr>
+                <tr><td>Recruitment</td><td>Sự tuyển dụng</td></tr>
+                <tr><td>Application</td><td>Đơn ứng tuyển</td></tr>
+                <tr><td>Interview</td><td>Cuộc phỏng vấn</td></tr>
+                <tr><td>Qualification</td><td>Bằng cấp, trình độ</td></tr>
+                <tr><td>Experience</td><td>Kinh nghiệm</td></tr>
+                <tr><td>Skill</td><td>Kỹ năng</td></tr>
+                <tr><td>Competence</td><td>Năng lực</td></tr>
+                <tr><td>Salary</td><td>Lương</td></tr>
+                <tr><td>Wage</td><td>Tiền công</td></tr>
+                <tr><td>Promotion</td><td>Sự thăng chức</td></tr>
+                <tr><td>Colleague</td><td>Đồng nghiệp</td></tr>
+                <tr><td>Workplace</td><td>Nơi làm việc</td></tr>
+                <tr><td>Flexible</td><td>Linh hoạt</td></tr>
+                <tr><td>Professional</td><td>Chuyên nghiệp</td></tr>
+                <tr><td>Responsibility</td><td>Trách nhiệm</td></tr>
+            </table>
+
+            <h4>Unit 6: Artificial intelligence</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Artificial intelligence</td><td>Trí tuệ nhân tạo</td></tr>
+                <tr><td>Technology</td><td>Công nghệ</td></tr>
+                <tr><td>Machine learning</td><td>Học máy</td></tr>
+                <tr><td>Algorithm</td><td>Thuật toán</td></tr>
+                <tr><td>Data</td><td>Dữ liệu</td></tr>
+                <tr><td>Database</td><td>Cơ sở dữ liệu</td></tr>
+                <tr><td>Automation</td><td>Tự động hóa</td></tr>
+                <tr><td>Robot</td><td>Robot</td></tr>
+                <tr><td>Intelligent</td><td>Thông minh</td></tr>
+                <tr><td>Virtual assistant</td><td>Trợ lý ảo</td></tr>
+                <tr><td>Recognition</td><td>Sự nhận diện</td></tr>
+                <tr><td>Facial recognition</td><td>Nhận diện khuôn mặt</td></tr>
+                <tr><td>Speech recognition</td><td>Nhận dạng giọng nói</td></tr>
+                <tr><td>Application</td><td>Ứng dụng</td></tr>
+                <tr><td>Innovation</td><td>Sự đổi mới</td></tr>
+                <tr><td>Operate</td><td>Vận hành</td></tr>
+                <tr><td>Predict</td><td>Dự đoán</td></tr>
+                <tr><td>Analyse</td><td>Phân tích</td></tr>
+                <tr><td>Artificial</td><td>Nhân tạo</td></tr>
+                <tr><td>Privacy</td><td>Quyền riêng tư</td></tr>
+            </table>
+
+            <h4>Unit 7: The world of mass media</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Mass media</td><td>Truyền thông đại chúng</td></tr>
+                <tr><td>Social media</td><td>Mạng xã hội</td></tr>
+                <tr><td>Broadcast</td><td>Phát sóng</td></tr>
+                <tr><td>Broadcasting</td><td>Việc phát sóng</td></tr>
+                <tr><td>Journalist</td><td>Nhà báo</td></tr>
+                <tr><td>Journalism</td><td>Ngành báo chí</td></tr>
+                <tr><td>Headline</td><td>Tiêu đề tin tức</td></tr>
+                <tr><td>Advertisement</td><td>Quảng cáo</td></tr>
+                <tr><td>Audience</td><td>Khán giả</td></tr>
+                <tr><td>Subscriber</td><td>Người đăng ký</td></tr>
+                <tr><td>Influencer</td><td>Người có sức ảnh hưởng</td></tr>
+                <tr><td>Content creator</td><td>Người sáng tạo nội dung</td></tr>
+                <tr><td>Platform</td><td>Nền tảng</td></tr>
+                <tr><td>Information</td><td>Thông tin</td></tr>
+                <tr><td>Reliable</td><td>Đáng tin cậy</td></tr>
+                <tr><td>Fake news</td><td>Tin giả</td></tr>
+                <tr><td>Viral</td><td>Lan truyền nhanh</td></tr>
+                <tr><td>Comment</td><td>Bình luận</td></tr>
+                <tr><td>Share</td><td>Chia sẻ</td></tr>
+                <tr><td>Interaction</td><td>Sự tương tác</td></tr>
+            </table>
+
+            <h4>Unit 8: Wildlife conservation</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Wildlife</td><td>Động vật hoang dã</td></tr>
+                <tr><td>Conservation</td><td>Sự bảo tồn</td></tr>
+                <tr><td>Endangered species</td><td>Loài có nguy cơ tuyệt chủng</td></tr>
+                <tr><td>Extinction</td><td>Sự tuyệt chủng</td></tr>
+                <tr><td>Habitat</td><td>Môi trường sống</td></tr>
+                <tr><td>Biodiversity</td><td>Đa dạng sinh học</td></tr>
+                <tr><td>Ecosystem</td><td>Hệ sinh thái</td></tr>
+                <tr><td>Poaching</td><td>Nạn săn bắt trái phép</td></tr>
+                <tr><td>Illegal trade</td><td>Buôn bán trái phép</td></tr>
+                <tr><td>Deforestation</td><td>Nạn phá rừng</td></tr>
+                <tr><td>Preserve</td><td>Bảo tồn, gìn giữ</td></tr>
+                <tr><td>Protect</td><td>Bảo vệ</td></tr>
+                <tr><td>National park</td><td>Vườn quốc gia</td></tr>
+                <tr><td>Nature reserve</td><td>Khu bảo tồn thiên nhiên</td></tr>
+                <tr><td>Predator</td><td>Động vật săn mồi</td></tr>
+                <tr><td>Prey</td><td>Con mồi</td></tr>
+                <tr><td>Breeding</td><td>Sự sinh sản, nhân giống</td></tr>
+                <tr><td>Reintroduce</td><td>Đưa trở lại môi trường tự nhiên</td></tr>
+                <tr><td>Threat</td><td>Mối đe dọa</td></tr>
+                <tr><td>Species</td><td>Loài</td></tr>
+            </table>
+
+            <h4>Unit 9: Career paths</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Career path</td><td>Con đường sự nghiệp</td></tr>
+                <tr><td>Career choice</td><td>Lựa chọn nghề nghiệp</td></tr>
+                <tr><td>Guidance</td><td>Sự hướng dẫn</td></tr>
+                <tr><td>Orientation</td><td>Sự định hướng</td></tr>
+                <tr><td>Interest</td><td>Sở thích, mối quan tâm</td></tr>
+                <tr><td>Strength</td><td>Điểm mạnh</td></tr>
+                <tr><td>Weakness</td><td>Điểm yếu</td></tr>
+                <tr><td>Talent</td><td>Tài năng</td></tr>
+                <tr><td>Aptitude</td><td>Năng khiếu</td></tr>
+                <tr><td>Potential</td><td>Tiềm năng</td></tr>
+                <tr><td>Determine</td><td>Xác định</td></tr>
+                <tr><td>Evaluate</td><td>Đánh giá</td></tr>
+                <tr><td>Opportunity</td><td>Cơ hội</td></tr>
+                <tr><td>Challenge</td><td>Thử thách</td></tr>
+                <tr><td>Entrepreneur</td><td>Doanh nhân</td></tr>
+                <tr><td>Self-employed</td><td>Tự làm chủ</td></tr>
+                <tr><td>Freelancer</td><td>Người làm việc tự do</td></tr>
+                <tr><td>Apprenticeship</td><td>Chương trình học nghề</td></tr>
+                <tr><td>Vocational</td><td>Thuộc nghề nghiệp</td></tr>
+                <tr><td>Employability</td><td>Khả năng có việc làm</td></tr>
+            </table>
+
+            <h4>Unit 10: Lifelong learning</h4>
+            <table>
+                <tr><th>Từ vựng</th><th>Nghĩa tiếng Việt</th></tr>
+                <tr><td>Lifelong learning</td><td>Học tập suốt đời</td></tr>
+                <tr><td>Knowledge</td><td>Kiến thức</td></tr>
+                <tr><td>Skill</td><td>Kỹ năng</td></tr>
+                <tr><td>Self-study</td><td>Tự học</td></tr>
+                <tr><td>Continuous</td><td>Liên tục</td></tr>
+                <tr><td>Development</td><td>Sự phát triển</td></tr>
+                <tr><td>Personal growth</td><td>Sự phát triển cá nhân</td></tr>
+                <tr><td>Acquire</td><td>Tiếp thu, đạt được</td></tr>
+                <tr><td>Enhance</td><td>Nâng cao</td></tr>
+                <tr><td>Improve</td><td>Cải thiện</td></tr>
+                <tr><td>Comprehension</td><td>Sự hiểu biết</td></tr>
+                <tr><td>Critical thinking</td><td>Tư duy phản biện</td></tr>
+                <tr><td>Problem-solving</td><td>Giải quyết vấn đề</td></tr>
+                <tr><td>Motivation</td><td>Động lực</td></tr>
+                <tr><td>Discipline</td><td>Kỷ luật</td></tr>
+                <tr><td>Independent</td><td>Độc lập</td></tr>
+                <tr><td>Flexible learning</td><td>Học tập linh hoạt</td></tr>
+                <tr><td>Online course</td><td>Khóa học trực tuyến</td></tr>
+                <tr><td>Qualification</td><td>Bằng cấp, trình độ</td></tr>
+                <tr><td>Adaptability</td><td>Khả năng thích nghi</td></tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>5. Kỹ năng làm bài thi trắc nghiệm</h3>
+        <div class="topic-content">
+
+            <h4>5.1. Ngữ âm (Pronunciation)</h4>
+            <ul>
+                <li>Nắm cách phát âm các nguyên âm và phụ âm trong tiếng Anh.</li>
+                <li>Phân biệt các âm dễ nhầm lẫn như /s/ và /ʃ/, /t/ và /θ/, /ɪ/ và /iː/.</li>
+                <li>Nắm quy tắc phát âm đuôi -s/-es và -ed.</li>
+                <li>Nhận biết trọng âm của từ có hai, ba âm tiết trở lên.</li>
+            </ul>
+
+            <h4>5.2. Đọc hiểu (Reading)</h4>
+            <ul>
+                <li><strong>Skimming:</strong> Đọc nhanh để tìm ý chính của đoạn hoặc bài.</li>
+                <li><strong>Scanning:</strong> Tìm kiếm thông tin cụ thể, từ khóa và dữ kiện.</li>
+                <li>Đoán nghĩa từ mới dựa vào ngữ cảnh.</li>
+                <li>Xác định nội dung chính, thông tin chi tiết và ý suy luận.</li>
+                <li>Chú ý từ đồng nghĩa, trái nghĩa và cách diễn đạt tương đương.</li>
+            </ul>
+
+            <h4>5.3. Tìm lỗi sai (Error Identification)</h4>
+            <ul>
+                <li>Sự hòa hợp giữa chủ ngữ và động từ.</li>
+                <li>Sử dụng đúng thì và dạng thức động từ.</li>
+                <li>Sử dụng đúng từ loại.</li>
+                <li>Cấu trúc song hành (Parallelism).</li>
+                <li>Đại từ, giới từ, liên từ và mạo từ.</li>
+            </ul>
+
+            <h4>5.4. Chức năng giao tiếp (Communication)</h4>
+            <ul>
+                <li>Đáp lại lời cảm ơn: You're welcome, My pleasure...</li>
+                <li>Đáp lại lời xin lỗi: That's all right, Never mind...</li>
+                <li>Đáp lại lời khen: Thank you, That's very kind of you...</li>
+                <li>Đưa ra ý kiến: In my opinion, I believe that...</li>
+                <li>Đồng ý: I agree, Exactly, That's true...</li>
+                <li>Không đồng ý: I disagree, I'm afraid I don't agree...</li>
+                <li>Đề nghị, yêu cầu và đưa ra lời khuyên.</li>
+            </ul>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================================================== -->
+<!-- TIN HỌC 12 -->
+<!-- ================================================== -->
+
+<section class="subject informatics" id="tin-hoc">
+
+    <h2 class="subject-title">III. TIN HỌC 12</h2>
+
+    <!-- CHỦ ĐỀ 1 -->
+
+    <div class="topic">
+        <h3>CHỦ ĐỀ 1. MÁY TÍNH VÀ XÃ HỘI TRI THỨC</h3>
+        <div class="topic-content">
+
+            <h4>Bài 1. Làm quen với trí tuệ nhân tạo</h4>
+
+            <h4>1. Khái niệm về AI</h4>
+            <ul>
+                <li><strong>Trí tuệ nhân tạo (AI – Artificial Intelligence):</strong> Là công nghệ cho phép máy tính mô phỏng một số khả năng trí tuệ của con người như học tập, suy luận, nhận biết, giải quyết vấn đề và ra quyết định.</li>
+                <li><strong>Học máy (Machine Learning):</strong> Là một lĩnh vực của AI, giúp máy tính học từ dữ liệu để nhận biết quy luật và đưa ra dự đoán.</li>
+                <li><strong>Học sâu (Deep Learning):</strong> Là phương pháp học máy sử dụng mạng nơ-ron nhân tạo nhiều lớp để xử lí các nhiệm vụ phức tạp.</li>
+            </ul>
+
+            <h4>2. Một số ứng dụng của AI</h4>
+            <ul>
+                <li><strong>Nhận dạng hình ảnh:</strong> Nhận diện khuôn mặt, chữ viết và vật thể.</li>
+                <li><strong>Xử lí ngôn ngữ:</strong> Dịch tự động, chatbot, trợ lí ảo và nhận dạng giọng nói.</li>
+                <li><strong>Y tế:</strong> Hỗ trợ chẩn đoán bệnh và phân tích hình ảnh y khoa.</li>
+                <li><strong>Giao thông:</strong> Hỗ trợ xe tự hành và dự đoán tình trạng giao thông.</li>
+                <li><strong>Giáo dục:</strong> Cá nhân hóa việc học và hỗ trợ giải đáp câu hỏi.</li>
+                <li><strong>Sản xuất:</strong> Tự động hóa dây chuyền và kiểm tra chất lượng sản phẩm.</li>
+            </ul>
+
+            <h4>Bài 2. Trí tuệ nhân tạo trong khoa học và đời sống</h4>
+
+            <h4>1. Trí tuệ nhân tạo và sự phát triển của một số lĩnh vực</h4>
+            <ul>
+                <li><strong>Khoa học:</strong> Phân tích dữ liệu lớn, mô phỏng và hỗ trợ nghiên cứu.</li>
+                <li><strong>Y tế:</strong> Phân tích kết quả xét nghiệm, hỗ trợ phát hiện bệnh.</li>
+                <li><strong>Nông nghiệp:</strong> Theo dõi cây trồng, dự đoán sâu bệnh và tối ưu hóa tưới tiêu.</li>
+                <li><strong>Công nghiệp:</strong> Sử dụng robot thông minh và tự động hóa sản xuất.</li>
+                <li><strong>Giáo dục:</strong> Hỗ trợ giảng dạy, học tập và đánh giá kết quả.</li>
+                <li><strong>Đời sống:</strong> Trợ lí ảo, đề xuất nội dung và nhà thông minh.</li>
+            </ul>
+
+            <h4>2. Trí tuệ nhân tạo và một vài cảnh báo</h4>
+            <ul>
+                <li><strong>Sai lệch thông tin:</strong> AI có thể tạo ra nội dung không chính xác hoặc bịa đặt.</li>
+                <li><strong>Quyền riêng tư:</strong> Dữ liệu cá nhân có thể bị thu thập và sử dụng không phù hợp.</li>
+                <li><strong>Việc làm:</strong> Tự động hóa có thể làm thay đổi hoặc thay thế một số công việc.</li>
+                <li><strong>Thiên kiến:</strong> AI có thể đưa ra kết quả thiếu công bằng do dữ liệu huấn luyện sai lệch.</li>
+                <li><strong>Tin giả:</strong> AI có thể tạo hình ảnh, âm thanh và video giả mạo (Deepfake).</li>
+                <li><strong>Phụ thuộc công nghệ:</strong> Lạm dụng AI có thể làm giảm khả năng tư duy độc lập.</li>
+            </ul>
+
+            <div class="note">
+                <strong>Lưu ý:</strong> Cần kiểm chứng thông tin do AI cung cấp, bảo vệ dữ liệu cá nhân và sử dụng AI có trách nhiệm.
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- CHỦ ĐỀ 2 -->
+
+    <div class="topic">
+        <h3>CHỦ ĐỀ 2. MẠNG MÁY TÍNH VÀ INTERNET</h3>
+        <div class="topic-content">
+
+            <h4>Bài 3. Một số thiết bị mạng thông dụng</h4>
+
+            <h4>1. Thiết bị mạng thông dụng</h4>
+
+            <table>
+                <tr><th>Thiết bị</th><th>Chức năng</th></tr>
+                <tr><td>Modem</td><td>Chuyển đổi tín hiệu để kết nối mạng nội bộ với mạng của nhà cung cấp Internet.</td></tr>
+                <tr><td>Router</td><td>Kết nối các mạng khác nhau và định tuyến dữ liệu đến đúng địa chỉ.</td></tr>
+                <tr><td>Switch</td><td>Kết nối nhiều thiết bị trong mạng LAN và chuyển dữ liệu đến thiết bị nhận.</td></tr>
+                <tr><td>Access Point</td><td>Cho phép các thiết bị không dây kết nối với mạng.</td></tr>
+                <tr><td>Repeater</td><td>Tiếp nhận và phát lại tín hiệu để mở rộng vùng phủ sóng mạng.</td></tr>
+                <tr><td>Card mạng</td><td>Giúp máy tính kết nối với mạng có dây hoặc không dây.</td></tr>
+            </table>
+
+            <h4>2. Kết nối máy tính với các thiết bị mạng</h4>
+            <ul>
+                <li><strong>Kết nối có dây:</strong> Sử dụng cáp mạng Ethernet để kết nối máy tính với switch hoặc router.</li>
+                <li><strong>Kết nối không dây:</strong> Sử dụng Wi-Fi để kết nối máy tính với điểm truy cập hoặc router không dây.</li>
+            </ul>
+
+            <p>Một số yêu cầu khi kết nối:</p>
+            <ul>
+                <li>Thiết bị mạng phải được cấp nguồn và hoạt động bình thường.</li>
+                <li>Cáp mạng phải được cắm đúng cổng.</li>
+                <li>Kết nối Wi-Fi cần đúng tên mạng (SSID) và mật khẩu.</li>
+                <li>Máy tính cần được cấu hình địa chỉ IP phù hợp.</li>
+            </ul>
+
+            <h4>Bài 4. Giao thức mạng</h4>
+
+            <h4>1. Giao thức mạng</h4>
+            <ul>
+                <li><strong>Giao thức mạng:</strong> Là tập hợp các quy tắc quy định cách thức trao đổi dữ liệu giữa các thiết bị trong mạng.</li>
+                <li><strong>Vai trò:</strong> Quy định định dạng dữ liệu, cách truyền nhận dữ liệu và kiểm soát lỗi trong quá trình trao đổi.</li>
+            </ul>
+
+            <table>
+                <tr><th>Giao thức</th><th>Chức năng</th></tr>
+                <tr><td>HTTP</td><td>Truyền tải dữ liệu trang web.</td></tr>
+                <tr><td>HTTPS</td><td>Truyền tải dữ liệu web có mã hóa bảo mật.</td></tr>
+                <tr><td>FTP</td><td>Truyền tệp giữa các thiết bị.</td></tr>
+                <tr><td>SMTP</td><td>Gửi thư điện tử.</td></tr>
+                <tr><td>POP3</td><td>Nhận thư điện tử về thiết bị.</td></tr>
+                <tr><td>DNS</td><td>Phân giải tên miền thành địa chỉ IP.</td></tr>
+            </table>
+
+            <h4>2. Giao thức TCP/IP</h4>
+            <ul>
+                <li><strong>TCP/IP:</strong> Là bộ giao thức nền tảng giúp các thiết bị trao đổi dữ liệu qua Internet.</li>
+                <li><strong>TCP (Transmission Control Protocol):</strong> Chia dữ liệu thành các đoạn nhỏ, kiểm soát lỗi và đảm bảo dữ liệu đến nơi đầy đủ, đúng thứ tự.</li>
+                <li><strong>IP (Internet Protocol):</strong> Xác định địa chỉ IP và định tuyến các gói tin đến đích.</li>
+            </ul>
+
+            <h4>Bốn lớp cơ bản của mô hình TCP/IP</h4>
+            <table>
+                <tr><th>Lớp</th><th>Chức năng</th></tr>
+                <tr><td>Ứng dụng</td><td>Cung cấp dịch vụ mạng cho ứng dụng (HTTP, FTP, DNS...).</td></tr>
+                <tr><td>Giao vận</td><td>Truyền dữ liệu giữa các ứng dụng (TCP, UDP).</td></tr>
+                <tr><td>Internet</td><td>Định địa chỉ và định tuyến gói tin (IP).</td></tr>
+                <tr><td>Truy cập mạng</td><td>Truyền dữ liệu qua môi trường mạng vật lí.</td></tr>
+            </table>
+
+            <h4>Bài 5. Thực hành chia sẻ tài nguyên trên mạng</h4>
+
+            <h4>1. Chia sẻ tệp và thư mục trên mạng cục bộ</h4>
+            <ul>
+                <li><strong>Mạng cục bộ (LAN):</strong> Mạng kết nối các thiết bị trong phạm vi nhỏ như gia đình, trường học hoặc văn phòng.</li>
+                <li>Chia sẻ tệp và thư mục giúp nhiều máy tính trong mạng cùng truy cập dữ liệu.</li>
+            </ul>
+
+            <p>Các bước cơ bản:</p>
+            <ol>
+                <li>Kết nối các máy tính vào cùng mạng LAN.</li>
+                <li>Chọn tệp hoặc thư mục cần chia sẻ.</li>
+                <li>Thiết lập quyền truy cập.</li>
+                <li>Cho phép thiết bị khác truy cập tài nguyên qua mạng.</li>
+            </ol>
+
+            <table>
+                <tr><th>Quyền truy cập</th><th>Ý nghĩa</th></tr>
+                <tr><td>Read</td><td>Chỉ được xem và đọc dữ liệu.</td></tr>
+                <tr><td>Write</td><td>Được ghi hoặc chỉnh sửa dữ liệu.</td></tr>
+                <tr><td>Full Control</td><td>Có toàn quyền đối với tài nguyên được chia sẻ.</td></tr>
+            </table>
+
+            <h4>2. Chia sẻ máy in</h4>
+            <ul>
+                <li>Cho phép nhiều máy tính sử dụng chung một máy in thông qua mạng.</li>
+                <li>Máy in có thể kết nối trực tiếp với mạng hoặc được chia sẻ thông qua một máy tính khác.</li>
+                <li><strong>Lợi ích:</strong> Tiết kiệm chi phí thiết bị, thuận tiện khi in ấn và sử dụng tài nguyên chung hiệu quả.</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <!-- CHỦ ĐỀ 3 -->
+
+    <div class="topic">
+        <h3>CHỦ ĐỀ 3. ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HÓA TRONG MÔI TRƯỜNG SỐ</h3>
+        <div class="topic-content">
+
+            <h4>Bài 6. Giao tiếp và ứng xử trong không gian mạng</h4>
+
+            <h4>1. Giao tiếp trong không gian mạng</h4>
+            <ul>
+                <li><strong>Không gian mạng:</strong> Là môi trường hình thành từ các mạng máy tính và Internet, nơi con người có thể trao đổi thông tin, học tập và làm việc.</li>
+                <li><strong>Thư điện tử (Email):</strong> Phương thức trao đổi thư từ và tài liệu qua Internet.</li>
+                <li><strong>Mạng xã hội:</strong> Nền tảng giúp người dùng kết nối, chia sẻ thông tin và tương tác.</li>
+                <li><strong>Tin nhắn trực tuyến:</strong> Hình thức trao đổi thông tin nhanh chóng qua các ứng dụng.</li>
+                <li><strong>Hội nghị truyền hình:</strong> Cho phép nhiều người trao đổi trực tiếp bằng hình ảnh và âm thanh.</li>
+                <li><strong>Diễn đàn trực tuyến:</strong> Nơi người dùng thảo luận và chia sẻ kiến thức theo chủ đề.</li>
+            </ul>
+
+            <p>Đặc điểm của giao tiếp trong không gian mạng:</p>
+            <ul>
+                <li>Không bị giới hạn nhiều bởi khoảng cách địa lí.</li>
+                <li>Trao đổi thông tin nhanh chóng.</li>
+                <li>Có thể giao tiếp đồng bộ hoặc không đồng bộ.</li>
+                <li>Thông tin có khả năng được lưu trữ và lan truyền rộng rãi.</li>
+            </ul>
+
+            <h4>2. Thể hiện tính nhân văn trong không gian mạng</h4>
+            <ul>
+                <li>Sử dụng ngôn ngữ lịch sự, tôn trọng người khác.</li>
+                <li>Không xúc phạm, bắt nạt hoặc quấy rối người khác trên mạng.</li>
+                <li>Không phát tán tin giả và thông tin sai lệch.</li>
+                <li>Tôn trọng quyền riêng tư và bản quyền.</li>
+                <li>Không chia sẻ thông tin cá nhân của người khác khi chưa được phép.</li>
+                <li>Kiểm chứng thông tin trước khi đăng tải hoặc chia sẻ.</li>
+                <li>Sẵn sàng hỗ trợ, giúp đỡ và lan tỏa những nội dung tích cực.</li>
+            </ul>
+
+            <div class="note">
+                <strong>Nguyên tắc quan trọng:</strong> Tôn trọng, trách nhiệm, trung thực và tuân thủ pháp luật khi tham gia không gian mạng.
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- CHỦ ĐỀ 4 -->
+
+    <div class="topic">
+        <h3>CHỦ ĐỀ 4. GIẢI QUYẾT VẤN ĐỀ VỚI SỰ TRỢ GIÚP CỦA MÁY TÍNH</h3>
+        <div class="topic-content">
+
+            <h4>Bài 7. HTML và cấu trúc trang web</h4>
+
+            <h4>1. Giới thiệu về trang web và HTML</h4>
+            <ul>
+                <li><strong>Trang web (Web page):</strong> Là một tài liệu trên World Wide Web, có thể chứa văn bản, hình ảnh, âm thanh, video và các liên kết.</li>
+                <li><strong>Website:</strong> Là tập hợp các trang web có liên quan với nhau, thường được lưu trữ trên cùng một máy chủ.</li>
+                <li><strong>HTML (HyperText Markup Language):</strong> Là ngôn ngữ đánh dấu siêu văn bản, dùng để tạo cấu trúc và nội dung cho trang web.</li>
+                <li><strong>Thẻ HTML:</strong> Thành phần dùng để xác định các nội dung và cấu trúc của trang web.</li>
+            </ul>
+
+            <h4>2. Cấu trúc cơ bản của một tệp HTML</h4>
+            <div class="formula">
+                &lt;!DOCTYPE html&gt;
+                <br>
+                &lt;html lang="vi"&gt;
+                <br>
+                &lt;head&gt;
+                <br>
+                &nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;
+                <br>
+                &nbsp;&nbsp;&lt;title&gt;Tên trang web&lt;/title&gt;
+                <br>
+                &lt;/head&gt;
+                <br>
+                &lt;body&gt;
+                <br>
+                &nbsp;&nbsp;&lt;h1&gt;Tiêu đề chính&lt;/h1&gt;
+                <br>
+                &nbsp;&nbsp;&lt;p&gt;Nội dung trang web.&lt;/p&gt;
+                <br>
+                &lt;/body&gt;
+                <br>
+                &lt;/html&gt;
+            </div>
+
+            <ul>
+                <li><strong>&lt;!DOCTYPE html&gt;:</strong> Khai báo tài liệu sử dụng HTML5.</li>
+                <li><strong>&lt;html&gt;:</strong> Phần tử gốc của tài liệu HTML.</li>
+                <li><strong>&lt;head&gt;:</strong> Chứa thông tin về trang web.</li>
+                <li><strong>&lt;meta charset="UTF-8"&gt;:</strong> Khai báo bảng mã kí tự UTF-8.</li>
+                <li><strong>&lt;title&gt;:</strong> Xác định tiêu đề hiển thị trên tab trình duyệt.</li>
+                <li><strong>&lt;body&gt;:</strong> Chứa nội dung hiển thị trên trang web.</li>
+            </ul>
+
+            <h4>3. Phần mềm soạn thảo HTML</h4>
+            <ul>
+                <li>Visual Studio Code.</li>
+                <li>Sublime Text.</li>
+                <li>Notepad++.</li>
+                <li>Notepad.</li>
+            </ul>
+
+            <p>Các bước tạo trang web:</p>
+            <ol>
+                <li>Viết mã HTML bằng phần mềm soạn thảo.</li>
+                <li>Lưu tệp với phần mở rộng <strong>.html</strong> hoặc <strong>.htm</strong>.</li>
+                <li>Mở tệp bằng trình duyệt web để xem kết quả.</li>
+            </ol>
+
+
+            <h4>Bài 8. Định dạng văn bản</h4>
+
+            <h4>1. Thuộc tính thẻ</h4>
+            <ul>
+                <li><strong>Thuộc tính (Attribute):</strong> Là thành phần cung cấp thông tin bổ sung hoặc thiết lập đặc điểm cho thẻ HTML.</li>
+                <li>Thuộc tính thường được viết trong thẻ mở theo dạng: <strong>tên_thuộc_tính="giá_trị"</strong>.</li>
+            </ul>
+
+            <div class="formula">
+                &lt;p style="color: red;"&gt;Văn bản màu đỏ&lt;/p&gt;
+                <br>
+                &lt;a href="https://example.com"&gt;Truy cập trang web&lt;/a&gt;
+            </div>
+
+            <ul>
+                <li><strong>style:</strong> Thuộc tính thiết lập kiểu trình bày.</li>
+                <li><strong>href:</strong> Thuộc tính xác định địa chỉ liên kết.</li>
+            </ul>
+
+            <h4>2. Các thẻ định dạng trình bày văn bản</h4>
+            <table>
+                <tr><th>Thẻ HTML</th><th>Chức năng</th></tr>
+                <tr><td>&lt;h1&gt; đến &lt;h6&gt;</td><td>Tạo tiêu đề từ cấp 1 đến cấp 6.</td></tr>
+                <tr><td>&lt;p&gt;</td><td>Tạo đoạn văn.</td></tr>
+                <tr><td>&lt;br&gt;</td><td>Xuống dòng.</td></tr>
+                <tr><td>&lt;hr&gt;</td><td>Tạo đường kẻ ngang.</td></tr>
+                <tr><td>&lt;div&gt;</td><td>Nhóm các phần tử thành khối.</td></tr>
+                <tr><td>&lt;span&gt;</td><td>Nhóm một phần nội dung nội tuyến.</td></tr>
+                <tr><td>&lt;pre&gt;</td><td>Giữ nguyên khoảng trắng và xuống dòng.</td></tr>
+            </table>
+
+            <h4>3. Các thẻ định dạng phông chữ</h4>
+            <table>
+                <tr><th>Thẻ HTML</th><th>Chức năng</th></tr>
+                <tr><td>&lt;b&gt;</td><td>In đậm văn bản.</td></tr>
+                <tr><td>&lt;strong&gt;</td><td>Nhấn mạnh nội dung, thường hiển thị in đậm.</td></tr>
+                <tr><td>&lt;i&gt;</td><td>In nghiêng văn bản.</td></tr>
+                <tr><td>&lt;em&gt;</td><td>Nhấn mạnh nội dung, thường hiển thị in nghiêng.</td></tr>
+                <tr><td>&lt;u&gt;</td><td>Gạch chân văn bản.</td></tr>
+                <tr><td>&lt;mark&gt;</td><td>Đánh dấu văn bản.</td></tr>
+                <tr><td>&lt;sub&gt;</td><td>Tạo chỉ số dưới.</td></tr>
+                <tr><td>&lt;sup&gt;</td><td>Tạo chỉ số trên.</td></tr>
+                <tr><td>&lt;del&gt;</td><td>Đánh dấu nội dung đã xóa.</td></tr>
+                <tr><td>&lt;small&gt;</td><td>Hiển thị chữ nhỏ hơn.</td></tr>
+            </table>
+
+            <div class="formula">
+                H&lt;sub&gt;2&lt;/sub&gt;O
+                <br>
+                x&lt;sup&gt;2&lt;/sup&gt;
+                <br>
+                &lt;strong&gt;Văn bản quan trọng&lt;/strong&gt;
+            </div>
+
+
+            <h4>Bài 9. Tạo danh sách, bảng</h4>
+
+            <h4>1. Tạo danh sách</h4>
+            <ul>
+                <li><strong>Danh sách không có thứ tự:</strong> Sử dụng thẻ &lt;ul&gt;, mỗi mục được đặt trong thẻ &lt;li&gt;.</li>
+                <li><strong>Danh sách có thứ tự:</strong> Sử dụng thẻ &lt;ol&gt;, mỗi mục được đặt trong thẻ &lt;li&gt;.</li>
+                <li><strong>Danh sách mô tả:</strong> Sử dụng &lt;dl&gt; để tạo danh sách, &lt;dt&gt; để xác định thuật ngữ và &lt;dd&gt; để mô tả thuật ngữ.</li>
+            </ul>
+
+            <div class="formula">
+                &lt;ul&gt;
+                <br>
+                &nbsp;&nbsp;&lt;li&gt;Toán học&lt;/li&gt;
+                <br>
+                &nbsp;&nbsp;&lt;li&gt;Vật lí&lt;/li&gt;
+                <br>
+                &lt;/ul&gt;
+                <br><br>
+                &lt;ol&gt;
+                <br>
+                &nbsp;&nbsp;&lt;li&gt;Học bài&lt;/li&gt;
+                <br>
+                &nbsp;&nbsp;&lt;li&gt;Làm bài tập&lt;/li&gt;
+                <br>
+                &lt;/ol&gt;
+            </div>
+
+            <h4>2. Thiết lập bảng</h4>
+            <table>
+                <tr><th>Thẻ</th><th>Chức năng</th></tr>
+                <tr><td>&lt;table&gt;</td><td>Tạo bảng.</td></tr>
+                <tr><td>&lt;tr&gt;</td><td>Tạo một hàng.</td></tr>
+                <tr><td>&lt;th&gt;</td><td>Tạo ô tiêu đề.</td></tr>
+                <tr><td>&lt;td&gt;</td><td>Tạo ô dữ liệu.</td></tr>
+                <tr><td>&lt;caption&gt;</td><td>Tạo tiêu đề bảng.</td></tr>
+                <tr><td>&lt;thead&gt;</td><td>Nhóm phần đầu bảng.</td></tr>
+                <tr><td>&lt;tbody&gt;</td><td>Nhóm phần thân bảng.</td></tr>
+                <tr><td>&lt;tfoot&gt;</td><td>Nhóm phần cuối bảng.</td></tr>
+            </table>
+
+            <p><strong>Thuộc tính thường dùng:</strong></p>
+            <ul>
+                <li><strong>rowspan:</strong> Gộp nhiều hàng.</li>
+                <li><strong>colspan:</strong> Gộp nhiều cột.</li>
+            </ul>
+
+            <div class="formula">
+                &lt;table border="1"&gt;
+                <br>
+                &nbsp;&nbsp;&lt;tr&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Họ tên&lt;/th&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Điểm&lt;/th&gt;
+                <br>
+                &nbsp;&nbsp;&lt;/tr&gt;
+                <br>
+                &nbsp;&nbsp;&lt;tr&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Nam&lt;/td&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;9&lt;/td&gt;
+                <br>
+                &nbsp;&nbsp;&lt;/tr&gt;
+                <br>
+                &lt;/table&gt;
+            </div>
+
+
+            <h4>Bài 10. Tạo liên kết</h4>
+
+            <h4>1. Siêu văn bản và đường dẫn</h4>
+            <ul>
+                <li><strong>Siêu văn bản (Hypertext):</strong> Là văn bản có chứa các liên kết đến tài liệu hoặc tài nguyên khác.</li>
+                <li><strong>Siêu liên kết (Hyperlink):</strong> Là liên kết cho phép chuyển đến một trang web, tệp hoặc vị trí khác.</li>
+                <li><strong>URL:</strong> Là địa chỉ xác định tài nguyên trên Internet.</li>
+                <li><strong>Đường dẫn tuyệt đối:</strong> Chứa địa chỉ đầy đủ của tài nguyên.</li>
+                <li><strong>Đường dẫn tương đối:</strong> Xác định vị trí tài nguyên dựa trên vị trí của tệp hiện tại.</li>
+            </ul>
+
+            <h4>2. Các cách tạo liên kết với một trang web</h4>
+            <p>Sử dụng thẻ &lt;a&gt; với thuộc tính <strong>href</strong>.</p>
+
+            <div class="formula">
+                &lt;!-- Liên kết đến trang web khác --&gt;
+                <br>
+                &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;
+                <br><br>
+                &lt;!-- Liên kết đến trang web cùng thư mục --&gt;
+                <br>
+                &lt;a href="trang2.html"&gt;Trang 2&lt;/a&gt;
+                <br><br>
+                &lt;!-- Mở liên kết trong tab mới --&gt;
+                <br>
+                &lt;a href="https://example.com" target="_blank"&gt;Mở trang&lt;/a&gt;
+                <br><br>
+                &lt;!-- Liên kết đến một vị trí trong trang --&gt;
+                <br>
+                &lt;a href="#noidung"&gt;Đến nội dung&lt;/a&gt;
+                <br>
+                &lt;h2 id="noidung"&gt;Nội dung&lt;/h2&gt;
+            </div>
+
+
+            <h4>Bài 11. Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web</h4>
+
+            <h4>1. Chèn tệp vào trang web</h4>
+            <ul>
+                <li>Sử dụng thẻ <strong>&lt;img&gt;</strong> để chèn hình ảnh vào trang web.</li>
+                <li><strong>src:</strong> Đường dẫn đến tệp hình ảnh.</li>
+                <li><strong>alt:</strong> Văn bản thay thế khi hình ảnh không hiển thị.</li>
+                <li><strong>width:</strong> Chiều rộng hình ảnh.</li>
+                <li><strong>height:</strong> Chiều cao hình ảnh.</li>
+            </ul>
+
+            <div class="formula">
+                &lt;img src="hinh.jpg" alt="Mô tả hình ảnh" width="300"&gt;
+            </div>
+
+            <h4>2. Chèn âm thanh và video vào trang web</h4>
+            <ul>
+                <li><strong>&lt;audio&gt;:</strong> Dùng để chèn âm thanh.</li>
+                <li><strong>&lt;video&gt;:</strong> Dùng để chèn video.</li>
+                <li><strong>controls:</strong> Hiển thị các nút điều khiển.</li>
+                <li><strong>autoplay:</strong> Tự động phát.</li>
+                <li><strong>loop:</strong> Phát lặp lại.</li>
+                <li><strong>muted:</strong> Tắt âm thanh.</li>
+            </ul>
+
+            <div class="formula">
+                &lt;audio controls&gt;
+                <br>
+                &nbsp;&nbsp;&lt;source src="nhac.mp3" type="audio/mpeg"&gt;
+                <br>
+                &lt;/audio&gt;
+                <br><br>
+                &lt;video width="400" controls&gt;
+                <br>
+                &nbsp;&nbsp;&lt;source src="video.mp4" type="video/mp4"&gt;
+                <br>
+                &lt;/video&gt;
+            </div>
+
+            <h4>3. Tạo khung nội tuyến trong trang web</h4>
+            <ul>
+                <li><strong>Khung nội tuyến (Inline Frame):</strong> Cho phép nhúng một trang web hoặc tài nguyên khác vào trang hiện tại.</li>
+                <li>Sử dụng thẻ <strong>&lt;iframe&gt;</strong>.</li>
+                <li><strong>src:</strong> Địa chỉ nội dung được nhúng.</li>
+                <li><strong>width, height:</strong> Chiều rộng và chiều cao khung.</li>
+                <li><strong>title:</strong> Mô tả nội dung khung.</li>
+            </ul>
+
+            <div class="formula">
+                &lt;iframe src="https://example.com"
+                <br>
+                &nbsp;&nbsp;width="500" height="300"
+                <br>
+                &nbsp;&nbsp;title="Trang được nhúng"&gt;
+                <br>
+                &lt;/iframe&gt;
+            </div>
+
+
+            <h4>Bài 12. Tạo biểu mẫu</h4>
+
+            <h4>1. Biểu mẫu web</h4>
+            <ul>
+                <li><strong>Biểu mẫu (Form):</strong> Là thành phần của trang web cho phép người dùng nhập và gửi dữ liệu.</li>
+                <li>Ứng dụng: Đăng kí tài khoản, đăng nhập, khảo sát và tìm kiếm thông tin.</li>
+            </ul>
+
+            <table>
+                <tr><th>Thẻ</th><th>Chức năng</th></tr>
+                <tr><td>&lt;form&gt;</td><td>Tạo biểu mẫu.</td></tr>
+                <tr><td>&lt;input&gt;</td><td>Tạo ô nhập dữ liệu.</td></tr>
+                <tr><td>&lt;label&gt;</td><td>Tạo nhãn cho trường nhập.</td></tr>
+                <tr><td>&lt;textarea&gt;</td><td>Tạo vùng nhập văn bản nhiều dòng.</td></tr>
+                <tr><td>&lt;select&gt;</td><td>Tạo danh sách lựa chọn.</td></tr>
+                <tr><td>&lt;option&gt;</td><td>Tạo một lựa chọn.</td></tr>
+                <tr><td>&lt;button&gt;</td><td>Tạo nút bấm.</td></tr>
+            </table>
+
+            <h4>Một số kiểu dữ liệu của input</h4>
+            <table>
+                <tr><th>Type</th><th>Chức năng</th></tr>
+                <tr><td>text</td><td>Nhập văn bản.</td></tr>
+                <tr><td>password</td><td>Nhập mật khẩu.</td></tr>
+                <tr><td>email</td><td>Nhập địa chỉ email.</td></tr>
+                <tr><td>number</td><td>Nhập số.</td></tr>
+                <tr><td>radio</td><td>Chọn một phương án.</td></tr>
+                <tr><td>checkbox</td><td>Chọn nhiều phương án.</td></tr>
+                <tr><td>date</td><td>Chọn ngày.</td></tr>
+                <tr><td>submit</td><td>Gửi biểu mẫu.</td></tr>
+                <tr><td>reset</td><td>Đặt lại dữ liệu.</td></tr>
+            </table>
+
+            <h4>Một số thuộc tính của biểu mẫu</h4>
+            <ul>
+                <li><strong>name:</strong> Tên trường dữ liệu.</li>
+                <li><strong>value:</strong> Giá trị của trường.</li>
+                <li><strong>required:</strong> Bắt buộc nhập.</li>
+                <li><strong>placeholder:</strong> Văn bản gợi ý.</li>
+                <li><strong>checked:</strong> Đánh dấu lựa chọn mặc định.</li>
+            </ul>
+
+            <div class="formula">
+                &lt;form&gt;
+                <br>
+                &nbsp;&nbsp;&lt;label&gt;Họ tên:&lt;/label&gt;
+                <br>
+                &nbsp;&nbsp;&lt;input type="text" name="hoten"&gt;
+                <br>
+                &nbsp;&nbsp;&lt;label&gt;Email:&lt;/label&gt;
+                <br>
+                &nbsp;&nbsp;&lt;input type="email" name="email"&gt;
+                <br>
+                &nbsp;&nbsp;&lt;button type="submit"&gt;Gửi&lt;/button&gt;
+                <br>
+                &lt;/form&gt;
+            </div>
+
+
+            <h4>Bài 13. Khái niệm, vai trò của CSS</h4>
+
+            <h4>1. Khái niệm mẫu định dạng CSS</h4>
+            <ul>
+                <li><strong>CSS (Cascading Style Sheets):</strong> Là ngôn ngữ định dạng được sử dụng để mô tả cách trình bày các phần tử HTML.</li>
+                <li>CSS giúp thiết lập màu sắc, phông chữ, kích thước, khoảng cách, bố cục và hiệu ứng của trang web.</li>
+            </ul>
+
+            <h4>2. Cấu trúc CSS</h4>
+            <p>Một quy tắc CSS gồm bộ chọn (Selector) và khối khai báo (Declaration Block).</p>
+
+            <div class="formula">
+                p {
+                <br>
+                &nbsp;&nbsp;color: red;
+                <br>
+                &nbsp;&nbsp;font-size: 18px;
+                <br>
+                }
+            </div>
+
+            <ul>
+                <li><strong>Selector:</strong> Bộ chọn, xác định phần tử HTML được định dạng.</li>
+                <li><strong>Property:</strong> Thuộc tính CSS.</li>
+                <li><strong>Value:</strong> Giá trị của thuộc tính.</li>
+            </ul>
+
+            <h4>Ba cách đưa CSS vào HTML</h4>
+            <ol>
+                <li><strong>Inline CSS:</strong> Viết CSS trực tiếp trong thuộc tính style của thẻ HTML.</li>
+                <li><strong>Internal CSS:</strong> Viết CSS trong thẻ &lt;style&gt; ở phần &lt;head&gt;.</li>
+                <li><strong>External CSS:</strong> Viết CSS trong tệp .css riêng và liên kết với HTML bằng thẻ &lt;link&gt;.</li>
+            </ol>
+
+            <h4>3. Vai trò, ý nghĩa của CSS</h4>
+            <ul>
+                <li>Tạo giao diện đẹp và chuyên nghiệp.</li>
+                <li>Tách biệt nội dung HTML và phần trình bày.</li>
+                <li>Giúp quản lí định dạng dễ dàng.</li>
+                <li>Có thể áp dụng cùng một kiểu định dạng cho nhiều trang web.</li>
+                <li>Hỗ trợ thiết kế giao diện phù hợp với nhiều kích thước màn hình.</li>
+            </ul>
+
+
+            <h4>Bài 14. Định dạng văn bản bằng CSS</h4>
+
+            <h4>1. Định dạng văn bản bằng CSS</h4>
+            <table>
+                <tr><th>Thuộc tính</th><th>Chức năng</th></tr>
+                <tr><td>font-family</td><td>Chọn phông chữ.</td></tr>
+                <tr><td>font-size</td><td>Kích thước chữ.</td></tr>
+                <tr><td>font-weight</td><td>Độ đậm của chữ.</td></tr>
+                <tr><td>font-style</td><td>Kiểu chữ thường hoặc nghiêng.</td></tr>
+                <tr><td>text-align</td><td>Căn lề văn bản.</td></tr>
+                <tr><td>text-decoration</td><td>Trang trí văn bản.</td></tr>
+                <tr><td>text-transform</td><td>Chuyển đổi kiểu chữ hoa/thường.</td></tr>
+                <tr><td>line-height</td><td>Khoảng cách giữa các dòng.</td></tr>
+                <tr><td>letter-spacing</td><td>Khoảng cách giữa các kí tự.</td></tr>
+                <tr><td>text-indent</td><td>Thụt đầu dòng.</td></tr>
+            </table>
+
+            <div class="formula">
+                p {
+                <br>
+                &nbsp;&nbsp;font-family: Arial;
+                <br>
+                &nbsp;&nbsp;font-size: 18px;
+                <br>
+                &nbsp;&nbsp;text-align: justify;
+                <br>
+                &nbsp;&nbsp;line-height: 1.5;
+                <br>
+                }
+            </div>
+
+            <h4>2. Tính kế thừa và cách lựa chọn theo thứ tự của CSS</h4>
+            <ul>
+                <li><strong>Tính kế thừa:</strong> Một số thuộc tính CSS của phần tử cha có thể được truyền xuống các phần tử con.</li>
+                <li>Các thuộc tính thường có tính kế thừa: color, font-family, font-size.</li>
+                <li>Các thuộc tính như margin, padding, border không tự động kế thừa.</li>
+                <li>Khi nhiều quy tắc cùng tác động đến một phần tử, trình duyệt xét mức độ ưu tiên của các quy tắc.</li>
+                <li>Nếu các quy tắc có cùng mức ưu tiên, quy tắc được khai báo sau thường được áp dụng.</li>
+            </ul>
+
+
+            <h4>Bài 15. Tạo màu cho chữ và nền</h4>
+
+            <h4>1. Hệ thống màu của CSS</h4>
+            <p>CSS có nhiều cách biểu diễn màu sắc:</p>
+
+            <div class="formula">
+                /* Tên màu */
+                <br>
+                color: red;
+                <br><br>
+                /* Mã HEX */
+                <br>
+                color: #FF0000;
+                <br><br>
+                /* RGB */
+                <br>
+                color: rgb(255, 0, 0);
+                <br><br>
+                /* RGBA */
+                <br>
+                color: rgba(255, 0, 0, 0.5);
+            </div>
+
+            <table>
+                <tr><th>Thuộc tính</th><th>Chức năng</th></tr>
+                <tr><td>color</td><td>Màu chữ.</td></tr>
+                <tr><td>background-color</td><td>Màu nền.</td></tr>
+                <tr><td>opacity</td><td>Độ trong suốt của phần tử.</td></tr>
+            </table>
+
+            <h4>2. Thiết lập bộ chọn là tổ hợp các phần tử có quan hệ</h4>
+            <table>
+                <tr><th>Bộ chọn</th><th>Ý nghĩa</th></tr>
+                <tr><td>A B</td><td>Chọn phần tử B nằm bên trong A.</td></tr>
+                <tr><td>A &gt; B</td><td>Chọn B là phần tử con trực tiếp của A.</td></tr>
+                <tr><td>A + B</td><td>Chọn B đứng ngay sau A.</td></tr>
+                <tr><td>A ~ B</td><td>Chọn các phần tử B đứng sau A và cùng cấp với A.</td></tr>
+            </table>
+
+
+            <h4>Bài 16. Định dạng khung</h4>
+
+            <h4>1. Phân loại phần tử khối và nội tuyến</h4>
+            <ul>
+                <li><strong>Phần tử khối (Block):</strong> Thường bắt đầu trên một dòng mới và chiếm toàn bộ chiều rộng có thể sử dụng.</li>
+                <li>Ví dụ: &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;section&gt;.</li>
+                <li><strong>Phần tử nội tuyến (Inline):</strong> Không bắt đầu dòng mới, chỉ chiếm không gian cần thiết cho nội dung.</li>
+                <li>Ví dụ: &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;.</li>
+                <li><strong>Inline-block:</strong> Phần tử nằm trên cùng dòng như inline nhưng có thể thiết lập chiều rộng và chiều cao.</li>
+            </ul>
+
+            <h4>2. Thiết lập định dạng khung bằng CSS</h4>
+            <p>Mô hình hộp (Box Model) gồm bốn thành phần:</p>
+
+            <div class="note">
+                <strong>Content → Padding → Border → Margin</strong>
+                <br>
+                Nội dung → Khoảng đệm → Đường viền → Lề ngoài.
+            </div>
+
+            <table>
+                <tr><th>Thuộc tính</th><th>Chức năng</th></tr>
+                <tr><td>width</td><td>Chiều rộng phần tử.</td></tr>
+                <tr><td>height</td><td>Chiều cao phần tử.</td></tr>
+                <tr><td>margin</td><td>Khoảng cách bên ngoài đường viền.</td></tr>
+                <tr><td>padding</td><td>Khoảng cách giữa nội dung và đường viền.</td></tr>
+                <tr><td>border</td><td>Đường viền của phần tử.</td></tr>
+                <tr><td>border-width</td><td>Độ dày đường viền.</td></tr>
+                <tr><td>border-style</td><td>Kiểu đường viền.</td></tr>
+                <tr><td>border-color</td><td>Màu đường viền.</td></tr>
+                <tr><td>border-radius</td><td>Bo tròn góc.</td></tr>
+                <tr><td>box-shadow</td><td>Tạo bóng cho phần tử.</td></tr>
+            </table>
+
+            <div class="formula">
+                .box {
+                <br>
+                &nbsp;&nbsp;width: 300px;
+                <br>
+                &nbsp;&nbsp;padding: 20px;
+                <br>
+                &nbsp;&nbsp;border: 2px solid black;
+                <br>
+                &nbsp;&nbsp;margin: 10px;
+                <br>
+                &nbsp;&nbsp;border-radius: 8px;
+                <br>
+                }
+            </div>
+
+            <h4>3. Một số bộ chọn đặc biệt của CSS</h4>
+            <ul>
+                <li><strong>Bộ chọn lớp:</strong> .ten-lop – chọn các phần tử có class tương ứng.</li>
+                <li><strong>Bộ chọn ID:</strong> #ten-id – chọn phần tử có ID tương ứng.</li>
+                <li><strong>Bộ chọn thuộc tính:</strong> Chọn phần tử dựa trên thuộc tính HTML.</li>
+                <li><strong>Bộ chọn con:</strong> Chọn phần tử nằm bên trong phần tử khác.</li>
+                <li><strong>Bộ chọn phần tử con trực tiếp:</strong> Sử dụng dấu &gt;.</li>
+            </ul>
+
+
+            <h4>Bài 17. Các mức ưu tiên của bộ chọn</h4>
+
+            <h4>1. Kiểu bộ chọn dạng pseudo-class và pseudo-element</h4>
+
+            <p><strong>Pseudo-class:</strong> Dùng để chọn phần tử ở một trạng thái hoặc vị trí đặc biệt.</p>
+
+            <table>
+                <tr><th>Bộ chọn</th><th>Ý nghĩa</th></tr>
+                <tr><td>:hover</td><td>Khi con trỏ chuột di chuyển lên phần tử.</td></tr>
+                <tr><td>:active</td><td>Khi phần tử đang được nhấn.</td></tr>
+                <tr><td>:focus</td><td>Khi phần tử đang được chọn hoặc nhận tiêu điểm.</td></tr>
+                <tr><td>:first-child</td><td>Chọn phần tử là con đầu tiên.</td></tr>
+                <tr><td>:last-child</td><td>Chọn phần tử là con cuối cùng.</td></tr>
+                <tr><td>:nth-child(n)</td><td>Chọn phần tử con theo vị trí.</td></tr>
+                <tr><td>:checked</td><td>Chọn ô chọn hoặc nút radio đang được đánh dấu.</td></tr>
+            </table>
+
+            <p><strong>Pseudo-element:</strong> Dùng để định dạng một phần cụ thể của phần tử.</p>
+
+            <table>
+                <tr><th>Bộ chọn</th><th>Ý nghĩa</th></tr>
+                <tr><td>::before</td><td>Chèn nội dung trước nội dung phần tử.</td></tr>
+                <tr><td>::after</td><td>Chèn nội dung sau nội dung phần tử.</td></tr>
+                <tr><td>::first-letter</td><td>Chọn chữ cái đầu tiên.</td></tr>
+                <tr><td>::first-line</td><td>Chọn dòng đầu tiên.</td></tr>
+                <tr><td>::selection</td><td>Chọn phần văn bản đang được bôi đen.</td></tr>
+            </table>
+
+            <h4>2. Mức độ ưu tiên khi áp dụng CSS</h4>
+            <p>Khi nhiều quy tắc CSS cùng áp dụng cho một phần tử, trình duyệt sẽ xét mức độ ưu tiên của các quy tắc.</p>
+
+            <table>
+                <tr><th>Loại bộ chọn / quy tắc</th><th>Mức độ ưu tiên tương đối</th></tr>
+                <tr><td>!important</td><td>Ưu tiên đặc biệt, có thể vượt qua quy tắc thông thường.</td></tr>
+                <tr><td>Inline style</td><td>Cao hơn bộ chọn ID, class và phần tử thông thường.</td></tr>
+                <tr><td>ID selector (#id)</td><td>Cao hơn class và bộ chọn phần tử.</td></tr>
+                <tr><td>Class, attribute, pseudo-class</td><td>Cao hơn bộ chọn phần tử.</td></tr>
+                <tr><td>Element, pseudo-element</td><td>Mức ưu tiên thấp hơn.</td></tr>
+                <tr><td>Universal selector (*)</td><td>Không làm tăng độ ưu tiên.</td></tr>
+            </table>
+
+            <div class="note">
+                <strong>Ghi nhớ:</strong> Khi các quy tắc có cùng độ ưu tiên và cùng nguồn áp dụng, quy tắc được viết sau thường có hiệu lực. Không nên lạm dụng !important vì có thể khiến việc quản lí CSS khó khăn.
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- CHỦ ĐỀ 5 -->
+
+    <div class="topic">
+        <h3>CHỦ ĐỀ 5. HƯỚNG NGHIỆP VỚI TIN HỌC</h3>
+        <div class="topic-content">
+
+            <h4>Bài 18. Dịch vụ sửa chữa và bảo trì máy tính</h4>
+
+            <h4>1. Dịch vụ sửa chữa và bảo trì máy tính</h4>
+            <ul>
+                <li><strong>Dịch vụ sửa chữa máy tính:</strong> Là hoạt động kiểm tra, phát hiện và khắc phục các lỗi phần cứng hoặc phần mềm của máy tính.</li>
+                <li><strong>Dịch vụ bảo trì máy tính:</strong> Là hoạt động kiểm tra, vệ sinh, cập nhật và chăm sóc thiết bị định kì nhằm duy trì khả năng hoạt động ổn định.</li>
+            </ul>
+
+            <h4>Các công việc thường gặp</h4>
+            <table>
+                <tr><th>Nhóm công việc</th><th>Nội dung</th></tr>
+                <tr><td>Kiểm tra phần cứng</td><td>Kiểm tra RAM, ổ cứng, bo mạch chủ, nguồn và các thiết bị ngoại vi.</td></tr>
+                <tr><td>Sửa chữa phần cứng</td><td>Thay thế hoặc sửa chữa linh kiện bị hỏng.</td></tr>
+                <tr><td>Cài đặt phần mềm</td><td>Cài đặt hệ điều hành, trình điều khiển và phần mềm ứng dụng.</td></tr>
+                <tr><td>Xử lí sự cố</td><td>Khắc phục lỗi hệ thống, lỗi kết nối mạng và lỗi phần mềm.</td></tr>
+                <tr><td>Bảo trì định kì</td><td>Vệ sinh thiết bị, kiểm tra hoạt động và cập nhật phần mềm.</td></tr>
+                <tr><td>Bảo vệ dữ liệu</td><td>Sao lưu, khôi phục và bảo vệ dữ liệu người dùng.</td></tr>
+            </table>
+
+            <h4>Yêu cầu đối với người làm nghề</h4>
+            <ul>
+                <li>Có kiến thức về phần cứng và phần mềm máy tính.</li>
+                <li>Có khả năng xác định và xử lí sự cố.</li>
+                <li>Cẩn thận, kiên nhẫn và có trách nhiệm.</li>
+                <li>Có kĩ năng giao tiếp và hỗ trợ khách hàng.</li>
+                <li>Thường xuyên cập nhật kiến thức và công nghệ mới.</li>
+            </ul>
+
+            <h4>2. Nhu cầu nhân lực cho dịch vụ sửa chữa, bảo trì máy tính và ngành học liên quan</h4>
+            <ul>
+                <li><strong>Nhu cầu nhân lực:</strong> Nhu cầu sửa chữa và bảo trì máy tính xuất hiện tại gia đình, trường học, doanh nghiệp, cơ quan và các tổ chức.</li>
+                <li><strong>Vị trí việc làm:</strong> Kĩ thuật viên máy tính, nhân viên hỗ trợ kĩ thuật, nhân viên bảo trì thiết bị và nhân viên quản lí hệ thống.</li>
+                <li><strong>Ngành học liên quan:</strong> Công nghệ thông tin, Kĩ thuật máy tính, Mạng máy tính và truyền thông dữ liệu, Điện tử – viễn thông.</li>
+                <li><strong>Triển vọng:</strong> Có cơ hội làm việc tại cửa hàng sửa chữa, trung tâm bảo hành, doanh nghiệp công nghệ và bộ phận IT của các tổ chức.</li>
+            </ul>
+
+
+            <h4>Bài 19. Nhóm nghề quản trị trong ngành Công nghệ thông tin</h4>
+
+            <h4>1. Nhóm nghề quản trị trong ngành Công nghệ thông tin</h4>
+            <p><strong>Nhóm nghề quản trị CNTT:</strong> Là nhóm nghề đảm nhiệm việc quản lí, vận hành, duy trì và bảo đảm hoạt động ổn định của hệ thống công nghệ thông tin trong tổ chức.</p>
+
+            <h4>Một số vị trí nghề nghiệp</h4>
+            <table>
+                <tr><th>Vị trí nghề nghiệp</th><th>Công việc chính</th></tr>
+                <tr><td>Quản trị mạng</td><td>Thiết lập, vận hành, giám sát và bảo trì hệ thống mạng máy tính.</td></tr>
+                <tr><td>Quản trị hệ thống</td><td>Quản lí máy chủ, hệ điều hành, tài khoản và tài nguyên hệ thống.</td></tr>
+                <tr><td>Quản trị cơ sở dữ liệu</td><td>Tổ chức, lưu trữ, bảo trì, sao lưu và bảo vệ cơ sở dữ liệu.</td></tr>
+                <tr><td>Quản trị an toàn thông tin</td><td>Giám sát an ninh, phát hiện nguy cơ và bảo vệ hệ thống thông tin.</td></tr>
+                <tr><td>Quản trị website</td><td>Quản lí nội dung, hoạt động và khả năng truy cập của website.</td></tr>
+                <tr><td>Quản lí dự án CNTT</td><td>Lập kế hoạch, phân công công việc và theo dõi tiến độ dự án công nghệ.</td></tr>
+            </table>
+
+            <h4>Kiến thức và kĩ năng cần có</h4>
+            <ul>
+                <li><strong>Kiến thức chuyên môn:</strong> Mạng máy tính, hệ điều hành, phần cứng, phần mềm, cơ sở dữ liệu và an toàn thông tin.</li>
+                <li><strong>Kĩ năng kĩ thuật:</strong> Cài đặt, cấu hình, vận hành, giám sát và khắc phục sự cố hệ thống.</li>
+                <li><strong>Kĩ năng quản lí:</strong> Lập kế hoạch, tổ chức công việc và quản lí tài nguyên.</li>
+                <li><strong>Kĩ năng mềm:</strong> Giao tiếp, làm việc nhóm, tư duy giải quyết vấn đề và tinh thần trách nhiệm.</li>
+                <li><strong>Khả năng tự học:</strong> Chủ động cập nhật công nghệ, công cụ và phương pháp quản trị mới.</li>
+            </ul>
+
+            <h4>Ngành học liên quan</h4>
+            <ul>
+                <li>Công nghệ thông tin.</li>
+                <li>Hệ thống thông tin.</li>
+                <li>Mạng máy tính và truyền thông dữ liệu.</li>
+                <li>An toàn thông tin.</li>
+                <li>Kĩ thuật máy tính.</li>
+            </ul>
+
+            <div class="note">
+                <strong>Ghi nhớ:</strong> Nhóm nghề quản trị CNTT có nhiệm vụ duy trì hệ thống công nghệ hoạt động ổn định, an toàn và hiệu quả, góp phần hỗ trợ hoạt động của cá nhân và tổ chức.
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+</div>
+
+<footer>
+    <p>MỘT SỐ KIẾN THỨC CƠ BẢN CỦA MỘT SỐ MÔN LỚP 12</p>
+    <p>Hóa học 12 | Tiếng Anh 12 | Tin học 12</p>
+</footer>
+
+</body>
+</html>
